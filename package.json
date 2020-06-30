@@ -6,9 +6,11 @@
   "license": "MIT",
   "scripts": {
     "start": "railway run node src/index.js",
-    "open": "railway open"
+    "open": "railway open",
+    "help": "railway --help"
   },
   "dependencies": {
+    "global": "^4.4.0",
     "railway": "^2.0.0",
     "tslib": "^2.0.0"
   }
