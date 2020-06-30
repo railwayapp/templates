@@ -1,6 +1,6 @@
 const pg = require("railway/pg");
 
-pg.query("SELECT NOW()", (err, res) => {
+pg.query("SELECT * FROM posts", (err, res) => {
   if (err) {
     console.log(err);
   }
