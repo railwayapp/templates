@@ -1,6 +1,24 @@
-# Hey look we are on NPM
+# Railway Examples
 
-## Usage
+Here be dragons.
+
+## Global usage (BROKEN FOR NOW DO NOT USE)
+
+npm
+`npm install -g railway`
+
+yarn
+`yarn global add railway`
+
+brew
+`coming soon`
+
+Commands:
+
+`railway --help`
+
+
+## Local Usage
 
 ```
 yarn install
