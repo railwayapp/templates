@@ -5,7 +5,8 @@
   "author": "Jake Runzer",
   "license": "MIT",
   "scripts": {
-    "start": "railway run node src/index.js"
+    "start": "railway run node src/index.js",
+    "open": "railway open"
   },
   "dependencies": {
     "railway": "^2.0.0",
