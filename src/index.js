@@ -5,7 +5,7 @@ pg.query("SELECT * FROM posts", (err, res) => {
     console.log(err);
   }
 
-  console.log(res);
+  console.log(res.rows);
 });
 
 pg.close();
