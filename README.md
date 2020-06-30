@@ -42,7 +42,7 @@ To setup your own:
 
 1. Delete the .railway/ directory
 2. run `yarn run railway init`
-3. Follow the prompts
+3. Follow the prompts to either import a project from dashboard or create a new one.
 4. On line 3 of index.js, change it from `SELECT * from posts` to `SELECT NOW()`.
 5. `yarn railway open` to pop open your project
 6. `yarn railway run src/index.js` to start running your server
