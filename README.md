@@ -4,7 +4,7 @@
 
 ```
 yarn install
-yarn open
+yarn railway open
 yarn start
 ```
 
