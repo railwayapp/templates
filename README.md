@@ -17,6 +17,8 @@ Commands:
 
 `railway --help`
 
+Railway will tell you how to create new projects, connect to existing projects, etc
+
 
 ## Local Usage
 
