@@ -1,52 +1,25 @@
-# Railway Examples
+# 🚂 Railway Examples
 
 Here be dragons.
 
-## Global usage (BROKEN FOR NOW DO NOT USE)
+# Using the examples
 
-npm
-`npm install -g railway`
+Each example has railway setup and shows how to use it in different scenarios.
+Some examples are JavaScript with others are TypeScript.
 
-yarn
-`yarn global add railway`
+Each example has it's own README explaining how to run it.
 
-brew
-`coming soon`
+# Using Railway
 
-Commands:
+The Railway CLI can be used to
 
-`railway --help`
+- Create new projects
+- Connect to existing projects
+- Open your project in the Railway dashboard
+- Run your code in the Railway environment
 
-Railway will tell you how to create new projects, connect to existing projects, etc
+Run `yarn railway --help` for usage information.
 
+# Questions and Support
 
-## Local Usage
-
-```
-yarn install
-yarn railway open
-yarn start
-```
-
-You should see a list of posts from the db.
-
-You can edit posts in Railway and they will be reflected.
-
-So easy!
-
-### Configuring your own project
-
-The project that's currently setup is a dummy project. e.g: You're all editing the same data since this project hasn't been claimed by anybody.
-
-To setup your own:
-
-1. Delete the .railway/ directory
-2. run `yarn run railway init`
-3. Follow the prompts to either import a project from dashboard or create a new one.
-4. On line 3 of index.js, change it from `SELECT * from posts` to `SELECT NOW()`.
-5. `yarn railway open` to pop open your project
-6. `yarn railway run src/index.js` to start running your server
-
-Now you're operating on your own project. If you press Cmd + K in the dashboard, you can provision new plugins. Spoiler: Only postgres is supported ATM.
-You can also type "dummy" and select "Generate Dummy Data" to prefill your tables with some dummy data
-
+If you have any questions or problems running the examples, please don't hesitate to reach out on our [Discord server](https://discord.gg/xAm2w6g).
