@@ -1,6 +1,6 @@
 const pg = require("railway/pg");
 
-pg.query("SELECT * FROM posts", (err, res) => {
+pg.query("SELECT * FROM authors", (err, res) => {
   if (err) {
     console.log(err);
   }
