@@ -7,7 +7,8 @@
   "scripts": {
     "start": "railway run node src/index.js",
     "open": "railway open",
-    "help": "railway --help"
+    "help": "railway --help",
+    "init": "railway init"
   },
   "dependencies": {
     "global": "^4.4.0",
