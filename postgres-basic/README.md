@@ -2,7 +2,10 @@
 
 ## Usage
 
+_This can also be done via npm/npx_:
+
 - Install dependencies `yarn install`
+- Init a railway project `yarn railway init`
 - Open the project in the Railway dashboard `yarn railway open`
 - Run the code `yarn start`
 
