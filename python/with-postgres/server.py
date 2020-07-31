@@ -5,7 +5,7 @@ import os
 conn = postgres.conn
 cur = conn.cursor()
 try:
-    cur.execute("SELECT * from jokes")
+    cur.execute("SELECT now()")
 except:
     print("Oops database fail")
 
