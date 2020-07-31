@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "next": "9.5.0",
-    "railway": "^2.0.4",
+    "railway": "^2.0.5",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   }
