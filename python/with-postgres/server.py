@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-from railway.postgres.psycopg2 import conn
+from railway import postgres
 import os
 
+conn = postgres.conn
 cur = conn.cursor()
 try:
     cur.execute("SELECT * from jokes")
