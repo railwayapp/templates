@@ -5,7 +5,6 @@ Here be dragons.
 # Using the examples
 
 Each example has railway setup and shows how to use it in different scenarios.
-Some examples are JavaScript with others are TypeScript.
 
 Each example has it's own README explaining how to run it.
 
