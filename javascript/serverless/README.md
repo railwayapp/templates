@@ -1,32 +1,22 @@
-# postgres-basic
+# serverless
+
+This project is intended to be deployed on Vercel, Netlify, etc
+
+It makes use of a railway build command which should only be used in production, during the build, on those sites
+
+It is NOT intended for local use, and requires a production access token
+
+If you are not planning to deploy to Vercel, Netlify, etc, please just use any of the regular library templates since they'll have no prioriatary railway library lockin' (And will work with all your Postgres/Mongo/etc libraries out of the box)
 
 ## Usage
-
-_This can also be done via npm/npx_:
 
 - Install dependencies `yarn install`
 - Init a railway project `yarn railway init`
 - Open the project in the Railway dashboard `yarn railway open`
 - Run the code `yarn start`
 
-You should see a list of posts from the db.
-
-You can edit posts in Railway and they will be reflected.
+The time should be printed
 
 So easy!
 
 ## Configuring your own project
-
-The project that's currently setup is a dummy project. e.g: You're all editing the same data since this project hasn't been claimed by anybody.
-
-To setup your own:
-
-1. Delete the .railway/ directory
-2. run `yarn run railway init`
-3. Follow the prompts to either import a project from dashboard or create a new one.
-4. On line 3 of index.js, change it from `SELECT * from posts` to `SELECT NOW()`.
-5. `yarn railway open` to pop open your project
-6. `yarn railway run src/index.js` to start running your server
-
-Now you're operating on your own project. If you press Cmd + K in the dashboard, you can provision new plugins. Spoiler: Only postgres is supported ATM.
-You can also type "dummy" and select "Generate Dummy Data" to prefill your tables with some dummy data
