@@ -1,11 +1,16 @@
 #!/usr/bin/python3
-from railway import postgres
+import psycopg2
 import os
 
-conn = postgres.conn
+try:
+    conn = psycopg2.connect("")
+except:
+    print("Couldn't connect")
+
+
 cur = conn.cursor()
 try:
-    cur.execute("SELECT now()")
+    cur.execute("SELECT NOW()")
 except:
     print("Oops database fail")
 

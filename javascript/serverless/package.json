@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "railway run node src/index.js",
+    "build": "railway build",
     "open": "railway open",
     "help": "railway --help",
     "init": "railway init"
