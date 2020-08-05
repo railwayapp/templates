@@ -1,6 +1,6 @@
 # Ruby on Rails on Railway
 
-Wow, that's a tonguetwister huh
+Wow, that's a tongue twister huh
 
 Install railway if you haven't
 
