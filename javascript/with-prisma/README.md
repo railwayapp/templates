@@ -4,15 +4,11 @@ This example uses [Prisma](https://www.prisma.io/) to access and interact with t
 
 ## Usage
 
-- Init a Railway project `yarn railway init`
 - Install dependencies `yarn install`
+- Init a Railway project `yarn railway init`
 - Generate Prisma `yarn generate`
 - Open the project in the Railway dashboard `yarn railway open`
 - Run the code `yarn start`
-
-You can edit posts in Railway and they will be reflected
-
-So easy!
 
 Optionally, run `yarn migrate:up` to create a Users and Posts folder and follow Prisma's [Quickstart](https://www.prisma.io/docs/getting-started/quickstart/)!
 

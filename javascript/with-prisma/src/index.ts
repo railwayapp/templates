@@ -7,7 +7,7 @@ const prisma = new PrismaClient();
     const result = await prisma.queryRaw`SELECT NOW()`;
     console.log(result[0]);
   } catch (e) {
-    console.log();
+    console.log(e);
   } finally {
     await prisma.disconnect();
   }
