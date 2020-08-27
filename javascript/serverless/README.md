@@ -13,6 +13,7 @@ If you are not planning to deploy to Vercel, Netlify, etc, please just use any o
 - Install dependencies `yarn install`
 - Init a railway project `yarn railway init`
 - Open the project in the Railway dashboard `yarn railway open`
+- Install the Postgres plugin from the Railway dashboard
 - Run the code `yarn start`
 
 The time should be printed
