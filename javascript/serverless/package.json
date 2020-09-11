@@ -1,0 +1,19 @@
+{
+  "name": "railway-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jake Runzer",
+  "license": "MIT",
+  "scripts": {
+    "start": "railway run node src/index.js",
+    "build": "railway build",
+    "open": "railway open",
+    "help": "railway --help",
+    "init": "railway init"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "railway": "^2.0.5",
+    "tslib": "^2.0.0"
+  }
+}

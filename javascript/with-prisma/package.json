@@ -1,0 +1,24 @@
+{
+  "name": "with-prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jake Runzer",
+  "license": "MIT",
+  "scripts": {
+    "generate": "railway run prisma generate",
+    "start": "railway run ts-node src/index.ts",
+    "open": "railway open",
+    "migrate:save": "railway run prisma migrate save --experimental",
+    "migrate:up": "railway run prisma migrate up --experimental"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.1.3",
+    "railway": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7",
+    "yarpm": "^0.2.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.1.3"
+  }
+}
