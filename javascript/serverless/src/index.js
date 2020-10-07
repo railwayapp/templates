@@ -1,6 +1,7 @@
-const pg = require("railway/pg");
+const pg = require("pg");
+const client = new pg.Pool();
 
-pg.query("SELECT now()", (err, res) => {
+client.query("SELECT now()", (err, res) => {
   if (err) {
     console.log(err);
   }
@@ -8,4 +9,4 @@ pg.query("SELECT now()", (err, res) => {
   console.log(res.rows);
 });
 
-pg.close();
+client.close();
