@@ -3,13 +3,14 @@
 // Call Railway anywhere on serverside code.
 // Here or getInitialProps
 
-import { promisify } from "util";
 import pg from "pg";
+
+const client = new pg.Pool();
 
 export default async (req, res) => {
   try {
-    const client = pg.Pool();
-    const query = await promisify(client.query)("Select NOW()");
+    const query = await client.query("SELECT NOW()");
+
     res.json({
       data: {
         time: query.rows[0].now,
