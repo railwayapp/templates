@@ -19,12 +19,6 @@ const Home = () => {
 
         {data == null && <div>loading...</div>}
         {data != null && <code className={styles.code}>{data.time}</code>}
-
-        <p>
-          Edit
-          <code className={styles.code}>pages/api/time.js</code> to change the
-          SQL query being run
-        </p>
       </main>
     </div>
   );
