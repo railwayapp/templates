@@ -1,7 +1,7 @@
 # Redis Example
 
-This example connects to a Postgres database with
-[node-pg](https://www.npmjs.com/package/pg).
+This example connects to a Redis database with
+[node-redis](https://github.com/NodeRedis/node-redis).
 
 ## How to use
 
