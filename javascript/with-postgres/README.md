@@ -1,6 +1,7 @@
 # Postgres Example
 
-This example connects to a Postgres database with [node-pg](https://www.npmjs.com/package/pg).
+This example connects to a Postgres database with
+[node-pg](https://www.npmjs.com/package/pg).
 
 ## How to use
 
@@ -10,4 +11,5 @@ This example connects to a Postgres database with [node-pg](https://www.npmjs.co
 
 ## Notes
 
-The SQL query being run simply fetches the current time in the database. It is located in `src/index.js`
+The SQL query being run simply fetches the current time in the database. It is
+located in `src/index.js`

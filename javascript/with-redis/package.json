@@ -1,0 +1,15 @@
+{
+  "name": "with-redis",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jake Runzer",
+  "license": "MIT",
+  "scripts": {
+    "start": "railway run node src/index.js"
+  },
+  "dependencies": {
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {}
+}
