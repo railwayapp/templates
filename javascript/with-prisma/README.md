@@ -1,30 +1,41 @@
-# with-prisma
+# Prisma Example
 
-This example uses [Prisma](https://www.prisma.io/) to access and interact with the Railway PostgreSQL database.
+This example uses [Prisma](https://www.prisma.io/) to access and interact with
+the Railway PostgreSQL database.
+
+## Setup
+
+- Create a Railway project with the Postgres plugin
+- Connect to your Railway project with `railway init`
+- Migrate the database `yarn migrate:up`
+- Generate Prisma client `yarn generate`
 
 ## Usage
 
-- Install dependencies `yarn install`
-- Init a Railway project `yarn railway init`
-- Generate Prisma `yarn generate`
-- Open the project in the Railway dashboard `yarn railway open`
-- Run the code `yarn start`
+This example is a very basic CLI that can create and get items with Prisma.
 
-Optionally, run `yarn migrate:up` to create a Users and Posts folder and follow Prisma's [Quickstart](https://www.prisma.io/docs/getting-started/quickstart/)!
+- Create an item with `yarn start create [value]`
+- List all items with `yarn start list`
 
 ## Prisma support
 
-Prisma has fantastic TypeScript support. If you open `src/index.ts` in an editor like VSCode, you will get autocompletion and type hints when querying the database.
+Prisma has fantastic TypeScript support. If you open `src/index.ts` in an editor
+like VSCode, you will get autocompletion and type hints when querying the
+database.
 
-All of Prisma features are supported. [Prisma documentation can be found here]([More information](https://www.prisma.io/docs/reference/tools-and-interfaces/prisma-client/).
+All of Prisma features are supported. [Prisma documentation can be found
+here]([More
+information](https://www.prisma.io/docs/reference/tools-and-interfaces/prisma-client/).
 
-You can edit the Prisma schema at `prisma/schema.prisma`. After editing you can run
+You can edit the Prisma schema at `prisma/schema.prisma`. After editing you can
+run
 
-```
+```shell
 yarn migrate:save
 yarn migrate:up
 ```
 
 to create new migrations and run them against the database.
 
-You should also run `yarn generate` to create updated type definitions for the Prisma client.
+You should also run `yarn generate` to create updated type definitions for the
+Prisma client.
