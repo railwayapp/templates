@@ -16,6 +16,11 @@ const todoPath = "/api/todos";
 const useTodos = () => useSWR<Todo[]>(todoPath);
 
 const createTodo = async (text: string) => {
+  mutate(
+    todoPath,
+    todos => [{ text, completed: false, id: "new-todo" }, ...todos],
+    false,
+  );
   await fetch(todoPath, {
     method: "POST",
     body: JSON.stringify({ text }),
@@ -63,7 +68,9 @@ const TodoList = () => {
 
 const TodoItem: React.FC<{ todo: Todo }> = ({ todo }) => (
   <li className={styles.todo}>
-    <label className={todo.completed ? styles.checked : ""}>
+    <label
+      className={`${styles.label} ${todo.completed ? styles.checked : ""}`}
+    >
       <input
         type="checkbox"
         checked={todo.completed}
