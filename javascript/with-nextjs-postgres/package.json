@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "railway run next dev",
     "build": "next build",
-    "start": "railway run next start"
+    "start": "next start --port ${PORT-3000}"
   },
   "dependencies": {
     "next": "9.5.4",
