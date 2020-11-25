@@ -7,7 +7,7 @@ This example connects to a Redis database with
 
 - Create a Railway project with the Redis plugin
 - Connect to your Railway project with `railway init`
-- Run this example with `railway start`
+- Run this example with `railway run railway start`
 
 ## Notes
 

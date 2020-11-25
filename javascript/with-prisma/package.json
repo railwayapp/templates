@@ -6,11 +6,10 @@
   "author": "Jake Runzer",
   "license": "MIT",
   "scripts": {
-    "generate": "railway run prisma generate",
-    "start": "railway run ts-node src/index.ts",
-    "open": "railway open",
-    "migrate:save": "railway run -- prisma migrate save --experimental",
-    "migrate:up": "railway run -- prisma migrate up --experimental"
+    "generate": "prisma generate",
+    "start": "ts-node src/index.ts",
+    "migrate:save": "prisma migrate save --experimental",
+    "migrate:up": "prisma migrate up --experimental"
   },
   "devDependencies": {
     "@prisma/cli": "^2.1.3",

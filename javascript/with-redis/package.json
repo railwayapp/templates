@@ -6,7 +6,7 @@
   "author": "Jake Runzer",
   "license": "MIT",
   "scripts": {
-    "start": "railway run node src/index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "redis": "^3.0.2"

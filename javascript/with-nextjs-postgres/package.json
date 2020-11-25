@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "railway run next dev",
+    "dev": "next dev",
     "build": "next build",
-    "start": "railway run next start"
+    "start": "next start"
   },
   "dependencies": {
     "next": "9.5.4",
