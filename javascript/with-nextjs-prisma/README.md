@@ -8,6 +8,7 @@ store todos in Postgres.
 - Prisma
 - NextJS
 - Postgres
+- TypeScript
 
 ## 💁‍♀️ How to use
 

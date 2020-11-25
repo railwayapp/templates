@@ -8,6 +8,7 @@ the Railway PostgreSQL database.
 - Postgres
 - Prisma
 - NodeJS
+- TypeScript
 
 ## 💁‍♀️ How to use
 
