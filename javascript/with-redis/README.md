@@ -14,4 +14,4 @@ This example connects to a Redis database with
 In `src/index.js` we connect to a Redis database and create a string value with
 the key "hello". We then display all keys in the database.
 
-You can edit the Redis keys in the Railway dashboard.
+You can edit the Redis keys in the Railway dashboard with `railway open`.
