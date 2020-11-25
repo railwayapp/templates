@@ -3,14 +3,19 @@
 This example uses [Prisma](https://www.prisma.io/) to access and interact with
 the Railway PostgreSQL database.
 
-## Setup
+## ✨ Features
+
+- Postgres
+- Prisma
+- NodeJS
+- TypeScript
+
+## 💁‍♀️ How to use
 
 - Create a Railway project with the Postgres plugin
 - Connect to your Railway project with `railway init`
 - Migrate the database `yarn migrate:up`
 - Generate Prisma client `yarn generate`
-
-## Usage
 
 This example is a very basic CLI that can create and get items with Prisma.
 

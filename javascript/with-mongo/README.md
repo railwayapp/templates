@@ -3,13 +3,18 @@
 This example connects to a Mongo database with
 [mongoose](https://mongoosejs.com/).
 
-## How to use
+## ✨ Features
+
+- Mongo
+- NodeJS
+
+## 💁‍♀️ How to use
 
 - Create a Railway project with the Mongo plugin
 - Connect to your Railway project with `railway init`
 - Run this example with `railway start`
 
-## Notes
+## 📝 Notes
 
 In `src/index.js` we connect to a Mongo database with mongoose and create a Cat
 model. We then create a cat with a [random cat
