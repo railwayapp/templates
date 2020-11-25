@@ -17,7 +17,7 @@ The Railway CLI can be used to
 - Open your project in the Railway dashboard
 - Run your code in the Railway environment
 
-Run `yarn @railway/cli --help` for usage information.
+Run `railway --help` for usage information.
 
 # Questions and Support
 
