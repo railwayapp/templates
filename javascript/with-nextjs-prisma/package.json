@@ -1,0 +1,27 @@
+{
+  "name": "with-nextjs-postgres",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "railway run next dev",
+    "build": "next build",
+    "start": "railway run next start",
+    "migrate:save": "railway run -- prisma migrate save --experimental",
+    "migrate:up": "railway run -- prisma migrate up --experimental",
+    "generate": "railway run prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "2.11.0",
+    "next": "9.5.4",
+    "pg": "^8.4.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "swr": "^0.3.9"
+  },
+  "devDependencies": {
+    "@prisma/cli": "2.11.0",
+    "@types/node": "^14.14.9",
+    "@types/react": "^17.0.0",
+    "typescript": "^4.1.2"
+  }
+}
