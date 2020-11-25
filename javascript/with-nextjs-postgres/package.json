@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "railway run next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start --port ${PORT-3000}"
   },

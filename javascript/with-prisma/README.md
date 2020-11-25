@@ -14,13 +14,13 @@ the Railway PostgreSQL database.
 
 - Create a Railway project with the Postgres plugin
 - Connect to your Railway project with `railway init`
-- Migrate the database `yarn migrate:up`
+- Migrate the database `railway run yarn migrate:up`
 - Generate Prisma client `yarn generate`
 
 This example is a very basic CLI that can create and get items with Prisma.
 
-- Create an item with `yarn start create [value]`
-- List all items with `yarn start list`
+- Create an item with `railway run yarn start create [value]`
+- List all items with `railway run yarn start list`
 
 ## Prisma support
 

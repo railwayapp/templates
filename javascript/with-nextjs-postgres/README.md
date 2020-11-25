@@ -12,7 +12,7 @@ database with [node-pg](https://www.npmjs.com/package/pg).
 
 - Create a Railway project with the Postgres plugin
 - Connect to your Railway project with `railway init`
-- Run this example with `yarn dev`
+- Run this example with `railway run yarn dev`
 
 ## 📝 Notes
 

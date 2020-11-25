@@ -12,7 +12,7 @@ This example connects to a Postgres database. with
 
 - Create a Railway project with the Postgres plugin
 - Connect to your Railway project with `railway init`
-- Run this example with `railway start`
+- Run this example with `railway run yarn start`
 
 ## 📝 Notes
 

@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "railway run next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start --port ${PORT-3000}",
-    "migrate:save": "railway run -- prisma migrate save --experimental",
-    "migrate:up": "railway run -- prisma migrate up --experimental",
-    "generate": "railway run prisma generate"
+    "migrate:save": "prisma migrate save --experimental",
+    "migrate:up": "prisma migrate up --experimental",
+    "generate": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "2.11.0",

@@ -1,5 +1,5 @@
 {
-  "name": "with-mongo",
+  "name": "with-express",
   "private": true,
   "version": "1.0.0",
   "main": "index.js",
@@ -9,8 +9,8 @@
     "start": "node src/index.js"
   },
   "dependencies": {
-    "cat-names": "^3.0.0",
-    "mongoose": "^5.10.15"
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
   },
   "devDependencies": {}
 }
