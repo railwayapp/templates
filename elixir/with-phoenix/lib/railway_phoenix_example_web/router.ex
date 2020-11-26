@@ -16,6 +16,7 @@ defmodule RailwayPhoenixExampleWeb.Router do
   scope "/", RailwayPhoenixExampleWeb do
     pipe_through :browser
 
+    resources "/posts", PostController
     get "/", PageController, :index
   end
 
