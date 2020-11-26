@@ -6,6 +6,11 @@
       "web"
     ]
   },
+  "scripts": {
+    "dev": "redwood dev",
+    "build": "redwood build",
+    "start": "redwood start"
+  },
   "devDependencies": {
     "@redwoodjs/core": "^0.21.0"
   },
