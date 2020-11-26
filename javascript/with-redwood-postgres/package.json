@@ -8,8 +8,7 @@
   },
   "scripts": {
     "dev": "redwood dev",
-    "build": "redwood build",
-    "start": "redwood start"
+    "build": "redwood build"
   },
   "devDependencies": {
     "@redwoodjs/core": "^0.21.0"
