@@ -2,7 +2,8 @@
   "name": "with-blitz-postgres",
   "version": "1.0.0",
   "scripts": {
-    "start": "blitz start",
+    "dev": "blitz start",
+    "start": "next start --port ${PORT-3000}",
     "studio": "blitz db studio",
     "build": "blitz build",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
