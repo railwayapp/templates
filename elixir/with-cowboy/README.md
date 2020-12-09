@@ -1,21 +1,15 @@
-# WithCowboy
+# Elixir Cowboy Example
 
-**TODO: Add description**
+This is a 
 
-## Installation
+This example is a [Cowboy](https://github.com/ninenines/cowboy) server that uses
+[Plug](https://github.com/elixir-plug/plug).
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `with_cowboy` to your list of dependencies in `mix.exs`:
+## ✨ Features
 
-```elixir
-def deps do
-  [
-    {:with_cowboy, "~> 0.1.0"}
-  ]
-end
-```
+- Elixir
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/with_cowboy](https://hexdocs.pm/with_cowboy).
+## 💁‍♀️ How to use
 
+- Install dependencies with `mix deps.get`
+- Run the Phoenix app `mix phx.server`
