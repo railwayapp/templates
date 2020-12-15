@@ -11,7 +11,7 @@ connects to a Railway Postgres database.
 
 ## 💁‍♀️ How to use
 
-- Create a Railway project with the Postgres plugin
+- [Create a Railway project with the Postgres plugin](https://railway.app/project?plugins=postgresql)
 - Connect to your Railway project with `railway init`
 - Install dependencies with `mix deps.get`
 - Migrate the database `railway run mix ecto.migrate`

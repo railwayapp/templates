@@ -10,7 +10,7 @@ This example connects to a Mongo database with
 
 ## 💁‍♀️ How to use
 
-- Create a Railway project with the Mongo plugin
+- [Create a Railway project with the Mongo plugin](https://railway.app/project?plugins=mongodb)
 - Connect to your Railway project with `railway init`
 - Run this example with `railway run yarn start`
 

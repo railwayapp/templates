@@ -10,7 +10,7 @@ This example connects to a Redis database with
 
 ## 💁‍♀️ How to use
 
-- Create a Railway project with the Redis plugin
+- [Create a Railway project with the Redis plugin](https://railway.app/project?plugins=redis)
 - Connect to your Railway project with `railway init`
 - Run this example with `railway run railway start`
 
