@@ -1,57 +1,11 @@
+import { NextPage } from "next";
 import Head from "next/head";
-import { format } from "path";
-import { useState } from "react";
-import useSWR, { mutate } from "swr";
+import { useMemo, useState } from "react";
+import { createTodo, deleteTodo, toggleTodo, useTodos } from "../api";
 import styles from "../styles/Home.module.css";
+import { Todo } from "../types";
 
-interface Todo {
-  id: string;
-  created: string;
-  text: string;
-  completed: boolean;
-}
-
-const todoPath = "/api/todos";
-
-const useTodos = () => useSWR<Todo[]>(todoPath);
-
-const createTodo = async (text: string) => {
-  mutate(
-    todoPath,
-    todos => [{ text, completed: false, id: "new-todo" }, ...todos],
-    false,
-  );
-  await fetch(todoPath, {
-    method: "POST",
-    body: JSON.stringify({ text }),
-  });
-
-  mutate(todoPath);
-};
-
-const toggleTodo = async (todo: Todo) => {
-  mutate(
-    todoPath,
-    todos =>
-      todos.map(t =>
-        t.id === todo.id ? { ...todo, completed: !t.completed } : t,
-      ),
-    false,
-  );
-  await fetch(`${todoPath}?todoId=${todo.id}`, {
-    method: "PUT",
-    body: JSON.stringify({ completed: !todo.completed }),
-  });
-  mutate(todoPath);
-};
-
-const deleteTodo = async (id: string) => {
-  mutate(todoPath, todos => todos.filter(t => t.id !== id), false);
-  await fetch(`${todoPath}?todoId=${id}`, { method: "DELETE" });
-  mutate(todoPath);
-};
-
-const TodoList = () => {
+export const TodoList: React.FC = () => {
   const { data: todos, error } = useTodos();
 
   if (error != null) return <div>Error loading todos...</div>;
@@ -109,7 +63,7 @@ const AddTodoInput = () => {
   );
 };
 
-const Home = () => {
+const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
