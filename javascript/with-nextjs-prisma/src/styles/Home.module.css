@@ -116,15 +116,11 @@
 }
 
 .deleteButton {
+  font-size: 1rem;
   border: none;
   background: none;
-  color: grey;
+  color: darkgrey;
   cursor: pointer;
-  opacity: 0;
-}
-
-.todo:hover .deleteButton {
-  opacity: 1;
 }
 
 @media (max-width: 600px) {
