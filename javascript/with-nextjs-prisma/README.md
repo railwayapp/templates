@@ -12,7 +12,7 @@ store todos in Postgres.
 
 ## 💁‍♀️ How to use
 
-- Create a Railway project with the Postgres plugin
+- [Create a Railway project with the Postgres plugin](https://railway.app/project?plugins=postgresql)
 - Connect to your Railway project with `railway init`
 - Migrate the database `railway run yarn migrate:up`
 - Generate Prisma client `yarn generate`

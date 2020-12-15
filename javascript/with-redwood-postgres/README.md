@@ -9,7 +9,7 @@ This example is a [Redwood](https://redwoodjs.com/) app that connects to a Railw
 
 ## 💁‍♀️ How to use
 
-- Create a Railway project with the Postgres plugin
+- [Create a Railway project with the Postgres plugin](https://railway.app/project?plugins=postgresql)
 - Connect to your Railway project with `railway init`
 - Migrate the database `railway run rw db up`
 - Run the Redwood app `railway run yarn rw dev`

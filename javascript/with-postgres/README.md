@@ -10,7 +10,7 @@ This example connects to a Postgres database. with
 
 ## 💁‍♀️ How to use
 
-- Create a Railway project with the Postgres plugin
+- [Create a Railway project with the Postgres plugin](https://railway.app/project?plugins=postgresql)
 - Connect to your Railway project with `railway init`
 - Run this example with `railway run yarn start`
 
