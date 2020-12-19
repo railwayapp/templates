@@ -10,7 +10,7 @@ Each example has it's own README explaining how to run it.
 
 # Using Railway
 
-The Railway CLI can be used to
+The [Railway CLI](https://github.com/railwayapp/cli) can be used to
 
 - Create new projects
 - Connect to existing projects
