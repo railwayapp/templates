@@ -13,7 +13,7 @@ connects to a Railway Postgres database.
 
 - [Create a Railway project with the Postgres plugin](https://railway.app/project?plugins=postgresql)
 - Connect to your Railway project with `railway init`
-- Install dependencies with `mix deps.get`
+- Install dependencies with `railway run mix deps.get`
 - Migrate the database `railway run mix ecto.migrate`
 - Install node dependencies with `cd assets && npm install`
 - Run the Phoenix app `railway run mix phx.server`
