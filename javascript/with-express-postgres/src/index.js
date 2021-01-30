@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 
 app.get("/", async (req, res) => {
   const { rows } = await pool.query("SELECT NOW()");
-  res.send(rows[0]);
+  res.send(`Hello, World! ${rows[0].now}`);
 });
 
 app.listen(port, () => {
