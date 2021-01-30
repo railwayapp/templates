@@ -13,7 +13,7 @@ Railway Postgres database.
 
 ## 💁‍♀️ How to use
 
-- [Create a Railway project with the Postgres plugin](https://railway.app/project?plugins=postgresql)
+- [Create a Railway project with the Postgres plugin](https://dev.new)
 - Connect to your Railway project with `railway init`
 - Migrate the database `railway run blitz db migrate`
 - Run the Blitz app `railway run yarn dev`
