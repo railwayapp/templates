@@ -14,7 +14,7 @@ store todos in Postgres.
 
 - [Create a Railway project with the Postgres plugin](https://railway.app/project?plugins=postgresql)
 - Connect to your Railway project with `railway init`
-- Migrate the database `railway run yarn migrate:up`
+- Migrate the database `railway run yarn migrate:dev`
 - Generate Prisma client `yarn generate`
 - Run the NextJS app `railway run yarn dev`
 
