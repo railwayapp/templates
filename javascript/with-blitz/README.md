@@ -3,6 +3,8 @@
 This example is a [Blitz.js](https://blitzjs.com/) app that connects to a
 Railway Postgres database.
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fjavascript%2Fwith-blitz-postgres&plugins=postgresql)
+
 ## ✨ Features
 
 - Blitz.js
