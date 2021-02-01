@@ -1,0 +1,17 @@
+{
+  "name": "with-express",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jake Runzer",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "echo 'No build step'"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {}
+}
