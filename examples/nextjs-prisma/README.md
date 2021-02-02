@@ -24,8 +24,7 @@ store todos in Postgres.
 
 This app is a simple todo list where the data is persisted to Postgres. [Prisma
 migrations](https://www.prisma.io/docs/concepts/components/prisma-migrate#prisma-migrate)
-can be created with `railway run yarn migrate:save` and the database migrated
-with `railway run yarn migrate:up`. The Prisma client can be regenerated with
+can be created with `railway run yarn migrate:dev` and deployed with `railway run yarn migrate:deploy`. The Prisma client can be regenerated with
 `yarn generate`.
 
 [swr](https://swr.vercel.app/) is used to fetch data on the client and perform optimistic updates.

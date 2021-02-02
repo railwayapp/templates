@@ -11,6 +11,10 @@ export const TodoList: React.FC = () => {
   if (error != null) return <div>Error loading todos...</div>;
   if (todos == null) return <div>Loading...</div>;
 
+  if (todos.length === 0) {
+    return <div className={styles.emptyState}>Try adding a todo ☝️️</div>;
+  }
+
   return (
     <ul className={styles.todoList}>
       {todos.map(todo => (
@@ -35,7 +39,7 @@ const TodoItem: React.FC<{ todo: Todo }> = ({ todo }) => (
     </label>
 
     <button className={styles.deleteButton} onClick={() => deleteTodo(todo.id)}>
-      X
+      ✕
     </button>
   </li>
 );
@@ -73,6 +77,10 @@ const Home: NextPage = () => {
 
       <header className={styles.header}>
         <h1 className={styles.title}>Todos</h1>
+        <h2 className={styles.desc}>
+          NextJS app connected to Postgres using Prisma and hosted on{" "}
+          <a href="https://railway.app">Railway</a>
+        </h2>
       </header>
 
       <main className={styles.main}>

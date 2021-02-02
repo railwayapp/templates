@@ -1,3 +1,7 @@
+:root {
+  --primary: #c049ff;
+}
+
 html,
 body {
   padding: 0;
@@ -7,8 +11,14 @@ body {
 }
 
 a {
-  color: inherit;
+  color: var(--primary);
   text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
 }
 
 * {
