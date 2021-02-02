@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "rootDir": "./",
 
     "incremental": true,
     "target": "es6",
