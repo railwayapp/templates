@@ -4,20 +4,9 @@ Here be dragons.
 
 # Using the examples
 
-Each example has railway setup and shows how to use it in different scenarios.
+Each example can be deployed to Railway with the "Deply on Railway" button.
 
 Each example has it's own README explaining how to run it.
-
-# Using Railway
-
-The [Railway CLI](https://github.com/railwayapp/cli) can be used to
-
-- Create new projects
-- Connect to existing projects
-- Open your project in the Railway dashboard
-- Run your code in the Railway environment
-
-Run `railway --help` for usage information.
 
 # Questions and Support
 
