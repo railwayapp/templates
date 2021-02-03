@@ -2,6 +2,8 @@
 
 Here be dragons.
 
+Create a new Railway project 👉 [dev.new](https://dev.new)
+
 # Using the examples
 
 Each example can be deployed to Railway with the "Deply on Railway" button.
