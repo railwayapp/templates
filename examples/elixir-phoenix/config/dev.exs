@@ -8,7 +8,7 @@ database_url =
     """
 
 # Configure your database
-config :railway_phoenix_example, RailwayPhoenixExample.Repo,
+config :railway_phoenix, RailwayPhoenix.Repo,
   url: database_url,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
@@ -19,7 +19,7 @@ config :railway_phoenix_example, RailwayPhoenixExample.Repo,
 # The watchers configuration can be used to run external
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
-config :railway_phoenix_example, RailwayPhoenixExampleWeb.Endpoint,
+config :railway_phoenix, RailwayPhoenixWeb.Endpoint,
   http: [port: 4000],
   debug_errors: true,
   code_reloader: true,
@@ -59,13 +59,13 @@ config :railway_phoenix_example, RailwayPhoenixExampleWeb.Endpoint,
 # different ports.
 
 # Watch static and templates for browser reloading.
-config :railway_phoenix_example, RailwayPhoenixExampleWeb.Endpoint,
+config :railway_phoenix, RailwayPhoenixWeb.Endpoint,
   live_reload: [
     patterns: [
       ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
-      ~r"lib/railway_phoenix_example_web/{live,views}/.*(ex)$",
-      ~r"lib/railway_phoenix_example_web/templates/.*(eex)$"
+      ~r"lib/railway_phoenix_web/(live|views)/.*(ex)$",
+      ~r"lib/railway_phoenix_web/templates/.*(eex)$"
     ]
   ]
 

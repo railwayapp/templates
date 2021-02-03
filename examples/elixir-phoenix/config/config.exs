@@ -7,15 +7,16 @@
 # General application configuration
 use Mix.Config
 
-config :railway_phoenix_example,
-  ecto_repos: [RailwayPhoenixExample.Repo]
+config :railway_phoenix,
+  ecto_repos: [RailwayPhoenix.Repo]
 
 # Configures the endpoint
-config :railway_phoenix_example, RailwayPhoenixExampleWeb.Endpoint,
+config :railway_phoenix, RailwayPhoenixWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "5XEOwc+4jOnQDDy239tygG/l6ILvecmxvfE89rH17JCP0zfPEIu9/Oz4/D/5v70T",
-  render_errors: [view: RailwayPhoenixExampleWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: RailwayPhoenixExample.PubSub, adapter: Phoenix.PubSub.PG2]
+  secret_key_base: "6teJKoGDzf1WDoPUJCZUv6qo/9iTAbu5rMZ+/9nvwUAHQvHN61IweLKGpowk+F9A",
+  render_errors: [view: RailwayPhoenixWeb.ErrorView, accepts: ~w(html json), layout: false],
+  pubsub_server: RailwayPhoenix.PubSub,
+  live_view: [signing_salt: "nTXBBTxn"]
 
 # Configures Elixir's Logger
 config :logger, :console,
