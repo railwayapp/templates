@@ -1,4 +1,4 @@
-defmodule RailwayPhoenixExample.DataCase do
+defmodule RailwayPhoenix.DataCase do
   @moduledoc """
   This module defines the setup for tests requiring
   access to the application's data layer.
@@ -7,29 +7,31 @@ defmodule RailwayPhoenixExample.DataCase do
   your tests.
 
   Finally, if the test case interacts with the database,
-  it cannot be async. For this reason, every test runs
-  inside a transaction which is reset at the beginning
-  of the test unless the test case is marked as async.
+  we enable the SQL sandbox, so changes done to the database
+  are reverted at the end of every test. If you are using
+  PostgreSQL, you can even run database tests asynchronously
+  by setting `use RailwayPhoenix.DataCase, async: true`, although
+  this option is not recommended for other databases.
   """
 
   use ExUnit.CaseTemplate
 
   using do
     quote do
-      alias RailwayPhoenixExample.Repo
+      alias RailwayPhoenix.Repo
 
       import Ecto
       import Ecto.Changeset
       import Ecto.Query
-      import RailwayPhoenixExample.DataCase
+      import RailwayPhoenix.DataCase
     end
   end
 
   setup tags do
-    :ok = Ecto.Adapters.SQL.Sandbox.checkout(RailwayPhoenixExample.Repo)
+    :ok = Ecto.Adapters.SQL.Sandbox.checkout(RailwayPhoenix.Repo)
 
     unless tags[:async] do
-      Ecto.Adapters.SQL.Sandbox.mode(RailwayPhoenixExample.Repo, {:shared, self()})
+      Ecto.Adapters.SQL.Sandbox.mode(RailwayPhoenix.Repo, {:shared, self()})
     end
 
     :ok

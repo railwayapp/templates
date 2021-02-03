@@ -1,4 +1,4 @@
-defmodule RailwayPhoenixExampleWeb.ChannelCase do
+defmodule RailwayPhoenixWeb.ChannelCase do
   @moduledoc """
   This module defines the test case to be used by
   channel tests.
@@ -8,9 +8,11 @@ defmodule RailwayPhoenixExampleWeb.ChannelCase do
   to build common data structures and query the data layer.
 
   Finally, if the test case interacts with the database,
-  it cannot be async. For this reason, every test runs
-  inside a transaction which is reset at the beginning
-  of the test unless the test case is marked as async.
+  we enable the SQL sandbox, so changes done to the database
+  are reverted at the end of every test. If you are using
+  PostgreSQL, you can even run database tests asynchronously
+  by setting `use RailwayPhoenixWeb.ChannelCase, async: true`, although
+  this option is not recommended for other databases.
   """
 
   use ExUnit.CaseTemplate
@@ -18,18 +20,19 @@ defmodule RailwayPhoenixExampleWeb.ChannelCase do
   using do
     quote do
       # Import conveniences for testing with channels
-      use Phoenix.ChannelTest
+      import Phoenix.ChannelTest
+      import RailwayPhoenixWeb.ChannelCase
 
       # The default endpoint for testing
-      @endpoint RailwayPhoenixExampleWeb.Endpoint
+      @endpoint RailwayPhoenixWeb.Endpoint
     end
   end
 
   setup tags do
-    :ok = Ecto.Adapters.SQL.Sandbox.checkout(RailwayPhoenixExample.Repo)
+    :ok = Ecto.Adapters.SQL.Sandbox.checkout(RailwayPhoenix.Repo)
 
     unless tags[:async] do
-      Ecto.Adapters.SQL.Sandbox.mode(RailwayPhoenixExample.Repo, {:shared, self()})
+      Ecto.Adapters.SQL.Sandbox.mode(RailwayPhoenix.Repo, {:shared, self()})
     end
 
     :ok

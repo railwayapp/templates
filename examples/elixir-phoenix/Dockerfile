@@ -22,4 +22,7 @@ RUN cd assets/ && \
   cd - && \
   mix do compile, phx.digest
 
+# Migrate the database
+RUN mix ecto.migrate
+
 CMD MIX_ENV=prod mix phx.server
