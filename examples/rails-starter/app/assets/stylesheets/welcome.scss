@@ -1,0 +1,27 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+a {
+  margin-top: 1rem;
+  color: #c049ff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
