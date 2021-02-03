@@ -1,6 +1,6 @@
-import express from "express";
 import { PrismaClient } from "@prisma/client";
 import bodyParser from "body-parser";
+import express from "express";
 
 const prisma = new PrismaClient();
 
