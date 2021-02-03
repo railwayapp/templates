@@ -1,11 +1,17 @@
 use Mix.Config
 
+database_url =
+  System.get_env("DATABASE_URL") ||
+    raise """
+    environment variable DATABASE_URL is missing.
+    For example: ecto://USER:PASS@HOST/DATABASE
+    """
+
 # Configure your database
+
 config :railway_phoenix_example, RailwayPhoenixExample.Repo,
-  username: "postgres",
-  password: "postgres",
-  database: "railway_phoenix_example_test",
-  hostname: "localhost",
+  url: database_url,
+  show_sensitive_data_on_connection_error: true,
   pool: Ecto.Adapters.SQL.Sandbox
 
 # We don't run a server during test. If one is required,
