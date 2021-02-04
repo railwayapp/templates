@@ -9,13 +9,14 @@ to a Railway PostgreSQL database.
 
 - Postgres
 - Express
+- TypeScript
 
 ## 💁‍♀️ How to use
 
 - Install dependencies `yarn`
 - [Create a Railway project with the Postgres plugin](https://dev.new)
 - Connect to your Railway project `railway init`
-- Start the server `railway run yarn start`
+- Start the server `railway run yarn dev`
 
 ## 📝 Notes
 

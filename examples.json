@@ -36,7 +36,9 @@
     "plugins": [],
     "icon": "discord.svg",
     "tags": ["javascript"],
-    "envVars": [{ "name": "DISCORD_TOKEN" }]
+    "envVars": [
+      { "name": "DISCORD_TOKEN", "desc": "Token of the Discord account used" }
+    ]
   },
   {
     "text": "Rails Starter",
