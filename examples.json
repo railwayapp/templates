@@ -5,7 +5,7 @@
     "href": "https://github.com/railwayapp/examples/tree/master/examples/nextjs-prisma",
     "plugins": ["postgresql"],
     "icon": "typescript.svg",
-    "tags": ["javascript", "prisma"]
+    "tags": ["typescript", "prisma"]
   },
   {
     "text": "BlitzJS",
@@ -14,7 +14,7 @@
     "href": "https://github.com/railwayapp/examples/tree/master/examples/blitzjs",
     "plugins": ["postgresql"],
     "icon": "blitzjs.png",
-    "tags": ["javascript", "prisma"],
+    "tags": ["typescript", "prisma"],
     "envVars": [
       { "name": "SESSION_SECRET_KEY", "desc": "> 32 character secret key" }
     ]
@@ -27,6 +27,16 @@
     "plugins": ["postgresql"],
     "icon": "typescript.svg",
     "tags": ["javascript"]
+  },
+  {
+    "text": "Discord.js Bot",
+    "value": "discordjs",
+    "desc": "Discord bot make in JavaScript",
+    "href": "https://github.com/railwayapp/examples/tree/master/examples/discordjs",
+    "plugins": [],
+    "icon": "typescript.svg",
+    "tags": ["javascript"],
+    "envVars": [{ "name": "DISCORD_TOKEN" }]
   },
   {
     "text": "Rails Starter",
