@@ -31,10 +31,10 @@
   {
     "text": "Discord.js Bot",
     "value": "discordjs",
-    "desc": "Discord bot make in JavaScript",
+    "desc": "Discord bot made in JavaScript",
     "href": "https://github.com/railwayapp/examples/tree/master/examples/discordjs",
     "plugins": [],
-    "icon": "typescript.svg",
+    "icon": "discord.svg",
     "tags": ["javascript"],
     "envVars": [{ "name": "DISCORD_TOKEN" }]
   },
