@@ -34,16 +34,16 @@
     "desc": "Simple Rails app that connects to PostgreSQL",
     "href": "https://github.com/railwayapp/examples/tree/master/examples/rails-starter",
     "plugins": ["postgresql"],
-    "icon": "ruby.svg",
+    "icon": "rails.svg",
     "tags": ["ruby"]
   },
   {
     "text": "Rails Blog",
     "value": "rails-blog",
     "desc": "Basic Rails blog",
-    "href": "https://github.com/railwayapp/examples/tree/master/examples/rails-starter",
+    "href": "https://github.com/railwayapp/examples/tree/master/examples/rails-blog",
     "plugins": ["postgresql"],
-    "icon": "ruby.svg",
+    "icon": "rails.svg",
     "tags": ["ruby"]
   },
   {

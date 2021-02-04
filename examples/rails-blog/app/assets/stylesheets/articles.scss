@@ -1,0 +1,13 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.article-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 4rem;
+
+  li {
+    padding: 0;
+  }
+}
