@@ -40,7 +40,7 @@
   {
     "text": "Rails Blog",
     "value": "rails-blog",
-    "desc": "Basic Rails blog",
+    "desc": "Rails app with CRUD functionality for articles",
     "href": "https://github.com/railwayapp/examples/tree/master/examples/rails-blog",
     "plugins": ["postgresql"],
     "icon": "rails.svg",
