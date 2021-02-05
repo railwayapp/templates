@@ -73,7 +73,7 @@
       "value": "sinatra",
       "desc": "Lightweight Ruby server",
       "href": "https://github.com/railwayapp/examples/tree/master/examples/sinatra",
-      "icon": "rails.svg",
+      "icon": "ruby.svg",
       "tags": ["ruby"]
     },
     {
