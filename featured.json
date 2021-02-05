@@ -1,0 +1,107 @@
+{
+  "about": "These are featured examples that appear on railway.app/templates",
+  "examples": [
+    {
+      "text": "NextJS w/Prisma",
+      "desc": "Todo app connected to PostgreSQL",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/nextjs-prisma",
+      "plugins": ["postgresql"],
+      "icon": "typescript.svg",
+      "tags": ["typescript", "prisma"]
+    },
+    {
+      "text": "BlitzJS",
+      "value": "blitzjs",
+      "desc": "Fullstack React app with built in auth",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/blitzjs",
+      "plugins": ["postgresql"],
+      "icon": "blitzjs.png",
+      "tags": ["typescript", "prisma"],
+      "envVars": [
+        { "name": "SESSION_SECRET_KEY", "desc": "> 32 character secret key" }
+      ]
+    },
+    {
+      "text": "ExpressJS w/Prisma",
+      "value": "expressjs-prisma",
+      "desc": "CRUD Rest API connected to PostgreSQL",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/expressjs-postgres",
+      "plugins": ["postgresql"],
+      "icon": "typescript.svg",
+      "tags": ["javascript"]
+    },
+    {
+      "text": "Discord.js Bot",
+      "value": "discordjs",
+      "desc": "Discord bot made in JavaScript",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/discordjs",
+      "plugins": [],
+      "icon": "discord.svg",
+      "tags": ["javascript"],
+      "envVars": [
+        { "name": "DISCORD_TOKEN", "desc": "Token of the Discord account used" }
+      ]
+    },
+    {
+      "text": "Rocket",
+      "value": "rocket-rust",
+      "desc": "Fast webserver written in Rust",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/rocket",
+      "icon": "rust.svg",
+      "tags": ["rust"]
+    },
+    {
+      "text": "Rails Starter",
+      "value": "rails-starter",
+      "desc": "Simple Rails app that connects to PostgreSQL",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/rails-starter",
+      "plugins": ["postgresql"],
+      "icon": "rails.svg",
+      "tags": ["ruby"]
+    },
+    {
+      "text": "Rails Blog",
+      "value": "rails-blog",
+      "desc": "Rails app with CRUD functionality for articles",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/rails-blog",
+      "plugins": ["postgresql"],
+      "icon": "rails.svg",
+      "tags": ["ruby"]
+    },
+    {
+      "text": "Django Starter",
+      "value": "django",
+      "desc": "Simple Django app connected to PostgreSQL",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/djangopy",
+      "plugins": ["postgresql"],
+      "icon": "python.svg",
+      "tags": ["python"],
+      "envVars": [
+        {
+          "name": "SECRET_KEY",
+          "desc": "Django secret key used for authentication"
+        }
+      ]
+    },
+    {
+      "text": "Flask",
+      "value": "flask",
+      "desc": "Lightweight Python server",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/flask",
+      "icon": "python.svg",
+      "tags": ["python"]
+    },
+    {
+      "text": "Phoenix",
+      "value": "elixir-phoenix",
+      "desc": "Starter Elixir Phoenix web app",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/elixir-phoenix",
+      "plugins": ["postgresql"],
+      "icon": "phoenix.svg",
+      "tags": ["elixir"],
+      "envVars": [
+        { "name": "SECRET_KEY_BASE", "desc": "> 64 character secret" }
+      ]
+    }
+  ]
+}
