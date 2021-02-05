@@ -12,3 +12,8 @@ This example is a [Rocket](https://rocket.rs) web server
 ## 💁‍♀️ How to use
 
 - Run the server `cargo run`
+
+## 📝 Notes
+
+By default, the Rocket server is started in staging mode. You can start in
+production mode by changing `ROCKET_ENV` in the `Dockerfile`.

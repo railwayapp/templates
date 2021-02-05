@@ -2,7 +2,8 @@ FROM rustlang/rust:nightly
 
 ARG PORT
 
-# ENV ROCKET_ENV=staging
+ENV ROCKET_ADDRESS=0.0.0.0
+ENV ROCKET_ENV=staging
 
 WORKDIR /app
 COPY . .
