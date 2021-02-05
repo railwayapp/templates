@@ -78,7 +78,14 @@
       "href": "https://github.com/railwayapp/examples/tree/master/examples/rails-blog",
       "plugins": ["postgresql"],
       "icon": "rails.svg",
-      "tags": ["ruby"]
+      "tags": ["ruby"],
+      "envVars": [
+        { "name": "USERNAME", "desc": "Username that can write articles" },
+        {
+          "name": "PASSWORD",
+          "desc": "Password of user that can write articles"
+        }
+      ]
     },
     {
       "text": "Sinatra",
