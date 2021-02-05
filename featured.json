@@ -114,7 +114,7 @@
     {
       "text": "Deno",
       "value": "deno",
-      "desc": "Deno webserver",
+      "desc": "Simple Deno webserver",
       "href": "https://github.com/railwayapp/examples/tree/master/examples/deno",
       "icon": "deno.png"
     }
