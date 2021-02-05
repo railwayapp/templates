@@ -10,6 +10,15 @@
       "tags": ["typescript", "prisma"]
     },
     {
+      "text": "ExpressJS w/Prisma",
+      "value": "expressjs-prisma",
+      "desc": "CRUD Rest API connected to PostgreSQL",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/expressjs-postgres",
+      "plugins": ["postgresql"],
+      "icon": "typescript.svg",
+      "tags": ["javascript"]
+    },
+    {
       "text": "BlitzJS",
       "value": "blitzjs",
       "desc": "Fullstack React app with built in auth",
@@ -20,15 +29,6 @@
       "envVars": [
         { "name": "SESSION_SECRET_KEY", "desc": "> 32 character secret key" }
       ]
-    },
-    {
-      "text": "ExpressJS w/Prisma",
-      "value": "expressjs-prisma",
-      "desc": "CRUD Rest API connected to PostgreSQL",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/expressjs-postgres",
-      "plugins": ["postgresql"],
-      "icon": "typescript.svg",
-      "tags": ["javascript"]
     },
     {
       "text": "Discord.js Bot",
@@ -110,6 +110,13 @@
       "envVars": [
         { "name": "SECRET_KEY_BASE", "desc": "> 64 character secret" }
       ]
+    },
+    {
+      "text": "Deno",
+      "value": "deno",
+      "desc": "Deno webserver",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/deno",
+      "icon": "deno.png"
     }
   ]
 }
