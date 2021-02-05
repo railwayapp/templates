@@ -47,7 +47,7 @@
       "value": "rocket-rust",
       "desc": "Fast webserver written in Rust",
       "href": "https://github.com/railwayapp/examples/tree/master/examples/rocket",
-      "icon": "rust.svg",
+      "icon": "rocket.svg",
       "tags": ["rust"]
     },
     {
@@ -65,6 +65,14 @@
       "desc": "Rails app with CRUD functionality for articles",
       "href": "https://github.com/railwayapp/examples/tree/master/examples/rails-blog",
       "plugins": ["postgresql"],
+      "icon": "rails.svg",
+      "tags": ["ruby"]
+    },
+    {
+      "text": "Sinatra",
+      "value": "sinatra",
+      "desc": "Lightweight Ruby server",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/sinatra",
       "icon": "rails.svg",
       "tags": ["ruby"]
     },
