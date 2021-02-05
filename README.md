@@ -1,14 +1,14 @@
-# 🚂 Railway Examples
+# 🚂 Railway Starters
 
 Here be dragons.
 
 Create a new Railway project 👉 [dev.new](https://dev.new)
 
-# Using the examples
+# Using the starters
 
-Each example can be deployed to Railway with the "Deploy on Railway" button.
+Each starter can be deployed to Railway with the "Deploy on Railway" button.
 
-Each example has it's own README explaining how to run it.
+Each starter has it's own README explaining how to run it.
 
 # Questions and Support
 
