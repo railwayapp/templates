@@ -16,7 +16,7 @@ This is a [Ruby on Rails](https://rubyonrails.org/) blog that connects to a Rail
 - Connect to your Railway project with `railway init`
 - Install Ruby requirements `bundle install`
 - Migrate the database `railway run rake db:migrate`
-- Run Django `railway run bin/rails migrate`
+- Run Rails `railway run bin/rails migrate`
 
 ## 📝 Notes
 
