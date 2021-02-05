@@ -47,7 +47,7 @@
       "value": "rocket-rust",
       "desc": "Fast webserver written in Rust",
       "href": "https://github.com/railwayapp/examples/tree/master/examples/rocket",
-      "icon": "rocket.svg",
+      "icon": "rocket.png",
       "tags": ["rust"]
     },
     {
