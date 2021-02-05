@@ -51,6 +51,18 @@
       "tags": ["rust"]
     },
     {
+      "text": "Phoenix",
+      "value": "elixir-phoenix",
+      "desc": "Starter Elixir Phoenix web app",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/elixir-phoenix",
+      "plugins": ["postgresql"],
+      "icon": "phoenix.svg",
+      "tags": ["elixir"],
+      "envVars": [
+        { "name": "SECRET_KEY_BASE", "desc": "> 64 character secret" }
+      ]
+    },
+    {
       "text": "Rails Starter",
       "value": "rails-starter",
       "desc": "Simple Rails app that connects to PostgreSQL",
@@ -98,18 +110,6 @@
       "href": "https://github.com/railwayapp/examples/tree/master/examples/flask",
       "icon": "python.svg",
       "tags": ["python"]
-    },
-    {
-      "text": "Phoenix",
-      "value": "elixir-phoenix",
-      "desc": "Starter Elixir Phoenix web app",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/elixir-phoenix",
-      "plugins": ["postgresql"],
-      "icon": "phoenix.svg",
-      "tags": ["elixir"],
-      "envVars": [
-        { "name": "SECRET_KEY_BASE", "desc": "> 64 character secret" }
-      ]
     },
     {
       "text": "Deno",
