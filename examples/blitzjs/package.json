@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "blitz dev",
-    "start": "blitz start",
+    "start": "blitz start --port ${PORT-3000}",
     "studio": "blitz prisma studio",
     "build": "yarn migrate:deploy && blitz build",
     "start:production": "blitz start --production --port $PORT",
