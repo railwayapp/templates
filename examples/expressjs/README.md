@@ -6,7 +6,6 @@ This example starts an [ExpressJS](https://expressjs.com/) server.
 
 ## ✨ Features
 
-- Postgres
 - Express
 - TypeScript
 
