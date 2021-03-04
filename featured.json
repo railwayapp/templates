@@ -13,7 +13,7 @@
       "text": "ExpressJS w/Prisma",
       "value": "expressjs-prisma",
       "desc": "CRUD Rest API connected to PostgreSQL",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/expressjs-postgres",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/expressjs-prisma",
       "plugins": ["postgresql"],
       "icon": "typescript.svg",
       "tags": ["javascript"]
