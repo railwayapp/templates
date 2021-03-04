@@ -14,7 +14,6 @@ This example starts a [Telegram](https://telegram.org/) bot on an [ExpressJS](ht
 
 - Install dependencies `yarn`
 - Connect to your Railway project `railway init`
-- Add the bot token as an environment variable `TELEGRAM_BOT_TOKEN`
 - Start the development server `railway run yarn dev`
 
 ## 📝 Notes
