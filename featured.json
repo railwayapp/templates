@@ -13,10 +13,18 @@
       "text": "ExpressJS w/Prisma",
       "value": "expressjs-prisma",
       "desc": "CRUD Rest API connected to PostgreSQL",
-      "href": "https://github.com/railwayapp/starters/tree/master/examples/expressjs-prisma",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/expressjs-postgres",
       "plugins": ["postgresql"],
       "icon": "typescript.svg",
-      "tags": ["javascript"]
+      "tags": ["typescript"]
+    },
+    {
+      "text": "ExpressJS",
+      "value": "expressjs",
+      "desc": "Basic express server setup with TypeScript",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/expressjs",
+      "icon": "typescript.svg",
+      "tags": ["typescript"]
     },
     {
       "text": "BlitzJS",
@@ -37,10 +45,19 @@
       "href": "https://github.com/railwayapp/examples/tree/master/examples/discordjs",
       "plugins": [],
       "icon": "discord.svg",
-      "tags": ["javascript"],
+      "tags": ["javascript", "bot"],
       "envVars": [
         { "name": "DISCORD_TOKEN", "desc": "Token of the Discord account used" }
       ]
+    },
+    {
+      "text": "Telegram Bot",
+      "value": "telegram",
+      "desc": "Telegram bot made with Telegraf and TypeScript",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/telegram-bot",
+      "icon": "telegram.svg",
+      "tags": ["bot", "telegram"],
+      "envVars": [{ "name": "TELEGRAM_BOT_TOKEN" }]
     },
     {
       "text": "Rocket",
@@ -119,11 +136,21 @@
       "tags": ["python"]
     },
     {
+      "text": "Laravel",
+      "value": "laravel",
+      "desc": "PHP Laravel web server",
+      "href": "https://github.com/railwayapp/examples/tree/master/examples/deno",
+      "plugins": ["postgresql"],
+      "icon": "laravel.svg",
+      "tags": ["php"]
+    },
+    {
       "text": "Deno",
       "value": "deno",
       "desc": "Simple Deno webserver",
       "href": "https://github.com/railwayapp/examples/tree/master/examples/deno",
-      "icon": "deno.png"
+      "icon": "deno.png",
+      "tags": ["typescript"]
     }
   ]
 }
