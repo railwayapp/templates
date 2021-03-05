@@ -1,10 +1,10 @@
 {
-  "about": "These are featured examples that appear on railway.app/templates",
+  "about": "These are featured starters that appear on railway.app/starters",
   "examples": [
     {
       "text": "NextJS w/Prisma",
       "desc": "Todo app connected to PostgreSQL",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/nextjs-prisma",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/nextjs-prisma",
       "plugins": ["postgresql"],
       "icon": "typescript.svg",
       "tags": ["typescript", "prisma"]
@@ -13,7 +13,7 @@
       "text": "ExpressJS w/Prisma",
       "value": "expressjs-prisma",
       "desc": "CRUD Rest API connected to PostgreSQL",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/expressjs-postgres",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/expressjs-postgres",
       "plugins": ["postgresql"],
       "icon": "typescript.svg",
       "tags": ["typescript"]
@@ -22,7 +22,7 @@
       "text": "ExpressJS",
       "value": "expressjs",
       "desc": "Basic express server setup with TypeScript",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/expressjs",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/expressjs",
       "icon": "typescript.svg",
       "tags": ["typescript"]
     },
@@ -30,7 +30,7 @@
       "text": "BlitzJS",
       "value": "blitzjs",
       "desc": "Fullstack React app with built in auth",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/blitzjs",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/blitzjs",
       "plugins": ["postgresql"],
       "icon": "blitzjs.png",
       "tags": ["typescript", "prisma"],
@@ -42,7 +42,7 @@
       "text": "Discord.js Bot",
       "value": "discordjs",
       "desc": "Discord bot made in JavaScript",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/discordjs",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/discordjs",
       "plugins": [],
       "icon": "discord.svg",
       "tags": ["javascript", "bot"],
@@ -54,7 +54,7 @@
       "text": "Telegram Bot",
       "value": "telegram",
       "desc": "Telegram bot made with Telegraf and TypeScript",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/telegram-bot",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/telegram-bot",
       "icon": "telegram.svg",
       "tags": ["bot", "telegram"],
       "envVars": [{ "name": "TELEGRAM_BOT_TOKEN" }]
@@ -63,7 +63,7 @@
       "text": "Rocket",
       "value": "rocket-rust",
       "desc": "Fast webserver written in Rust",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/rocket",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/rocket",
       "icon": "rocket.png",
       "tags": ["rust"]
     },
@@ -71,7 +71,7 @@
       "text": "Phoenix",
       "value": "elixir-phoenix",
       "desc": "Starter Elixir Phoenix web app",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/elixir-phoenix",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/elixir-phoenix",
       "plugins": ["postgresql"],
       "icon": "phoenix.svg",
       "tags": ["elixir"],
@@ -83,7 +83,7 @@
       "text": "Rails Starter",
       "value": "rails-starter",
       "desc": "Simple Rails app that connects to PostgreSQL",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/rails-starter",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/rails-starter",
       "plugins": ["postgresql"],
       "icon": "rails.svg",
       "tags": ["ruby"]
@@ -92,7 +92,7 @@
       "text": "Rails Blog",
       "value": "rails-blog",
       "desc": "Rails app with CRUD functionality for articles",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/rails-blog",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/rails-blog",
       "plugins": ["postgresql"],
       "icon": "rails.svg",
       "tags": ["ruby"],
@@ -108,7 +108,7 @@
       "text": "Sinatra",
       "value": "sinatra",
       "desc": "Lightweight Ruby server",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/sinatra",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/sinatra",
       "icon": "ruby.svg",
       "tags": ["ruby"]
     },
@@ -116,7 +116,7 @@
       "text": "Django Starter",
       "value": "django",
       "desc": "Simple Django app connected to PostgreSQL",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/djangopy",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/djangopy",
       "plugins": ["postgresql"],
       "icon": "python.svg",
       "tags": ["python"],
@@ -131,7 +131,7 @@
       "text": "Flask",
       "value": "flask",
       "desc": "Lightweight Python server",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/flask",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/flask",
       "icon": "python.svg",
       "tags": ["python"]
     },
@@ -139,7 +139,7 @@
       "text": "Laravel",
       "value": "laravel",
       "desc": "PHP Laravel web server",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/deno",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/deno",
       "plugins": ["postgresql"],
       "icon": "laravel.svg",
       "tags": ["php"]
@@ -148,7 +148,7 @@
       "text": "Deno",
       "value": "deno",
       "desc": "Simple Deno webserver",
-      "href": "https://github.com/railwayapp/examples/tree/master/examples/deno",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/deno",
       "icon": "deno.png",
       "tags": ["typescript"]
     }
