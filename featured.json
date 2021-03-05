@@ -139,7 +139,7 @@
       "text": "Laravel",
       "value": "laravel",
       "desc": "PHP Laravel web server",
-      "href": "https://github.com/railwayapp/starters/tree/master/examples/deno",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/laravel",
       "plugins": ["postgresql"],
       "icon": "laravel.svg",
       "tags": ["php"]
