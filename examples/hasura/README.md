@@ -2,7 +2,7 @@
 
 This example sets up a [Hasura](https://hasura.io/opensource/) instance with a [PostgreSQL](https://www.postgresql.org/) database.
 
-[![Deploy on Railway](https://railway.app/button.svg)]([![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fhasura&plugins=postgresql&envs=HASURA_GRAPHQL_ADMIN_SECRET&HASURA_GRAPHQL_ADMIN_SECRETDesc=To+secure+your+GraphQL+endpoint+and+the+Hasura+console.))
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fhasura&plugins=postgresql&envs=HASURA_GRAPHQL_ADMIN_SECRET&HASURA_GRAPHQL_ADMIN_SECRETDesc=To+secure+your+GraphQL+endpoint+and+the+Hasura+console.)
 
 ## ✨ Features
 
@@ -12,7 +12,7 @@ This example sets up a [Hasura](https://hasura.io/opensource/) instance with a [
 ## 💁‍♀️ How to use
 
 - Click the `Deploy on Railway` button
-- Set up a `HASURA_GRAPHQL_ADMIN_SECRET`
+- Set up a `HASURA_GRAPHQL_ADMIN_SECRET` to secure your endpoints and console.
 - Visit your console after the deployment is complete
 
 ## 📝 Notes
