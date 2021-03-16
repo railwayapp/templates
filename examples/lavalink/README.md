@@ -14,3 +14,4 @@ This is a [Lavalink](https://github.com/Frederikam/Lavalink) server.
 - Set the `$PASSWORD` environment variable in your Railway project
 - Edit `application.yml` if needed
   - It is possible to use `${VAR_NAME}` values in the `application.yml` so you can configure with environment variables on Railway! (That's what we did with `${PASSWORD}`)
+- To run the Docker image locally: `railway run`
