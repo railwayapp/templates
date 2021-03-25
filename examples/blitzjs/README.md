@@ -15,7 +15,7 @@ Railway Postgres database.
 
 - [Create a Railway project with the Postgres plugin](https://dev.new)
 - Connect to your Railway project with `railway init`
-- Migrate the database `railway run blitz db migrate`
+- Migrate the database `railway run blitz prisma migrate`
 - Run the Blitz app `railway run yarn dev`
 
 ## 📝 Notes
