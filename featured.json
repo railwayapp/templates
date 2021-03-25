@@ -3,6 +3,7 @@
   "examples": [
     {
       "text": "NextJS w/Prisma",
+      "value": "nextjs-prisma",
       "desc": "Todo app connected to PostgreSQL",
       "href": "https://github.com/railwayapp/starters/tree/master/examples/nextjs-prisma",
       "plugins": ["postgresql"],
