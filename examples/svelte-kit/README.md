@@ -1,4 +1,4 @@
-# SvelteKit Examples
+# SvelteKit Example
 
 This examples is a simple [SvelteKit](https://kit.svelte.dev/) app.
 
