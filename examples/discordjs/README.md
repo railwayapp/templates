@@ -17,5 +17,4 @@ This example starts a Discord bot using [discord.js](https://discord.js.org/#/).
 
 ## 📝 Notes
 
-The server started simply returns the current time in the database. The SQL
-query is located in `src/index.js`.
+The server started launches a Discord bot with a couple of basic commands. The code is located at `src/index.js`.
