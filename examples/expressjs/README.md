@@ -17,5 +17,4 @@ This example starts an [ExpressJS](https://expressjs.com/) server.
 
 ## 📝 Notes
 
-The server started simply returns the current time in the database. The SQL
-query is located in `src/index.js`.
+The server started simply returns a `Hello: "World"` payload in JSON. The server code is located in `src/index.js`.
