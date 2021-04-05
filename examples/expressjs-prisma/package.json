@@ -8,18 +8,17 @@
     "dev": "nodemon src/index.ts",
     "build": "yarn migrate:deploy && tsc",
     "start": "node dist/index.js",
-    "migrate:dev": "prisma migrate dev --preview-feature",
-    "migrate:deploy": "prisma migrate deploy --preview-feature",
-    "migrate:status": "prisma migrate status --preview-feature",
+    "migrate:dev": "prisma migrate dev",
+    "migrate:deploy": "prisma migrate deploy",
+    "migrate:status": "prisma migrate status",
     "generate": "prisma generate"
   },
   "dependencies": {
-    "@prisma/client": "2.15.0",
-    "body-parser": "^1.19.0",
+    "@prisma/client": "2.20.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "@prisma/cli": "2.15.0",
+    "prisma": "2.20.0",
     "@types/body-parser": "^1.19.0",
     "@types/express": "^4.17.11",
     "@types/node": "^14.14.22",

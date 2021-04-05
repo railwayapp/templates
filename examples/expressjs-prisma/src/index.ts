@@ -1,5 +1,4 @@
 import { PrismaClient } from "@prisma/client";
-import bodyParser from "body-parser";
 import express from "express";
 
 const prisma = new PrismaClient();
@@ -7,9 +6,9 @@ const prisma = new PrismaClient();
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.use(bodyParser.json());
-app.use(bodyParser.raw({ type: "application/vnd.custom-type" }));
-app.use(bodyParser.text({ type: "text/html" }));
+app.use(express.json());
+app.use(express.raw({ type: "application/vnd.custom-type" }));
+app.use(express.text({ type: "text/html" }));
 
 app.get("/todos", async (req, res) => {
   const todos = await prisma.todo.findMany({
