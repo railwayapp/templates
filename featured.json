@@ -148,10 +148,18 @@
     {
       "text": "Deno",
       "value": "deno",
-      "desc": "Simple Deno webserver",
+      "desc": "Simple Deno web server",
       "href": "https://github.com/railwayapp/starters/tree/master/examples/deno",
       "icon": "deno.png",
       "tags": ["typescript"]
+    },
+    {
+      "text": "SvelteKit",
+      "value": "sveltekit",
+      "desc": "Starter SvelteKit app setup with TypeScript",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/svelte-kit",
+      "icon": "svelte.svg",
+      "tags": ["typescript", "svelte"]
     }
   ]
 }
