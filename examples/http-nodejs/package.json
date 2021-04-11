@@ -1,0 +1,10 @@
+{
+  "name": "http-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aiden Bai",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}
