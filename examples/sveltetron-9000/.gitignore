@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+/.svelte
+/build
+/functions
+.idea
+yarn.lock
+package-lock.json
+.vscode

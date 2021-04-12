@@ -1,0 +1,33 @@
+{
+  "name": "sveltetron-9000",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "start": "svelte-kit start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@storybook/addon-actions": "^6.2.2",
+    "@storybook/addon-essentials": "^6.2.2",
+    "@storybook/addon-links": "^6.2.2",
+    "@storybook/addon-svelte-csf": "^1.0.0",
+    "@storybook/svelte": "^6.2.2",
+    "@sveltejs/adapter-node": "next",
+    "@sveltejs/kit": "next",
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "postcss": "^8.2.9",
+    "sass": "^1.0.0",
+    "svelte": "^3.37.0",
+    "svelte-loader": "^3.0.0",
+    "svelte-preprocess": "^4.0.0",
+    "tailwindcss": "^2.0.4",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0",
+    "vite": "^2.1.0"
+  }
+}
