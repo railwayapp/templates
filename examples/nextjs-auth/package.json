@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-auth",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An example NextJS app using NextAuth.js and MongoDB for authentication.",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Faraz Patankar",
+  "dependencies": {
+    "mongodb": "^3.6.6",
+    "next": "^10.0.7",
+    "next-auth": "latest",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
