@@ -13,7 +13,7 @@ This example deploys self-hosted version of [Umami](https://umami.is/). Internal
 
 - Click the Railway button 👆
 - Clone the repo and connect to your project using `railway link`
-- Use `psql -h hostname -U username -d databasename -f sql/schema.postgresql.sql`
+- Use `railway run psql -h hostname -U username -d databasename -f sql/schema.postgresql.sql`
   - You can view your `hostname`, `username`, and `databasename` using `railway variables` or from your project dashboard
   - This command installs all the tables with the required scripts and creates a login account with the username `admin` and password `umami`
 - You should now be able to visit your Umami dashboard and set up sites that you want to track analytics for
