@@ -1,0 +1,7 @@
+.col {
+  flex: 2;
+}
+
+.buttons {
+  justify-content: flex-end;
+}

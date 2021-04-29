@@ -1,0 +1,15 @@
+.title {
+  color: var(--gray900);
+  font-size: var(--font-size-large);
+  line-height: var(--font-size-large);
+}
+
+.link {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 576px) {
+  .active {
+    display: none;
+  }
+}
