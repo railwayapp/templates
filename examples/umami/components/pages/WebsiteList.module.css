@@ -1,0 +1,18 @@
+.website {
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--gray300);
+  margin-bottom: 30px;
+  align-self: stretch;
+}
+
+.website:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.menubar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 10px;
+}

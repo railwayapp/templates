@@ -1,0 +1,30 @@
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  border-bottom: 1px solid var(--gray300);
+}
+
+.head {
+  font-size: var(--font-size-small);
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  border-bottom: 1px solid var(--gray300);
+  padding: 10px 0;
+}
+
+.cell {
+  display: flex;
+  align-items: flex-start;
+}
