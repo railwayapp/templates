@@ -13,8 +13,16 @@ This is an example [NextJS](https://nextjs.org/) app that uses [Notion](https://
 
 ## 💁‍♀️ How to use
 
-We have a detailed guide with steps for getting set up with this starter on our blog. You can read it [here](http://blog.railway.app/p/hello-world)
+- When you deploy your application using the link above, we will ask you for the `NOTION_TOKEN` and the `BLOG_INDEX_ID`. This section will guide you on how to get those variables and deploy your blog to Railway.
+
+  - **Blog index ID**: If the URL of your page is https://www.notion.so/Blog-eb3df599cd9b4a8284c0f41bf5563966, then your BLOG_INDEX_ID would be eb3df599cd9b4a8284c0f41bf5563966. Basically, the part after your page title in the URL bar.
+
+  ![Blog index ID](https://user-images.githubusercontent.com/10681116/116751615-4a514b00-a9d2-11eb-86ed-5780e8f3c54c.jpeg)
+
+  - **Notion token**: To get this, just look for the token_v2 cookie while on Notion.
+
+  ![Notion token](https://user-images.githubusercontent.com/10681116/116751809-94d2c780-a9d2-11eb-8ae0-ed8c58ff75b3.jpeg)
 
 ## 📝 Notes
 
-Based on what your source for the images is, you will need to update the `images` key inside `next.config.js` otherwise your images will not render properly.
+- Based on what your source for the images is, you will need to update the `images` key inside `next.config.js` otherwise your images will not render properly.
