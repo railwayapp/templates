@@ -1,0 +1,46 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+html,
+body {
+  @apply antialiased;
+  @apply bg-background text-white;
+
+  min-height: 100vh;
+}
+
+/* Write your own custom component styles here */
+.btn-primary {
+  @apply px-4 py-2 font-bold text-white bg-primary rounded;
+  @apply hover:text-primary hover:bg-white;
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr min(65ch, 100%) 1fr;
+  @apply px-8;
+}
+
+.wrapper > * {
+  grid-column: 2;
+}
+
+.full-bleed {
+  width: 100%;
+  grid-column: 1 / 4;
+}
+
+.logo {
+  fill: currentColor;
+}
