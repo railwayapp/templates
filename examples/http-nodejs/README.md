@@ -7,7 +7,7 @@ This example starts an [HTTP Module](https://nodejs.org/api/http.html) server.
 ## 💁‍♀️ How to use
 
 - Install dependencies `yarn`
-- Connect to your Railway project `railway init`
+- Connect to your Railway project `railway link`
 - Start the development server `railway run yarn dev`
 
 ## 📝 Notes

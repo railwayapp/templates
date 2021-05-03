@@ -13,7 +13,7 @@ This example starts a [Telegram](https://telegram.org/) bot on an [ExpressJS](ht
 ## 💁‍♀️ How to use
 
 - Install dependencies `yarn`
-- Connect to your Railway project `railway init`
+- Connect to your Railway project `railway link`
 - Start the development server `railway run yarn dev`
 
 ## 📝 Notes

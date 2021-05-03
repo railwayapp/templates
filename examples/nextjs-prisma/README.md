@@ -15,7 +15,7 @@ This example is a [NextJS](https://nextjs.org/) todo app that uses
 ## 💁‍♀️ How to use
 
 - [Provision a Postgres container on Railway](https://dev.new)
-- Connect to your Railway project with `railway init`
+- Connect to your Railway project with `railway link`
 - Migrate the database `railway run yarn migrate:dev`
 - Run the NextJS app `railway run yarn dev`
 
