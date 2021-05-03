@@ -13,7 +13,7 @@ This is a [Django](https://www.djangoproject.com/) application that connects to 
 ## 💁‍♀️ How to use
 
 - [Create a Railway project with the Postgres plugin](https://railway.app/project?plugins=postgresql)
-- Connect to your Railway project with `railway init`
+- Connect to your Railway project with `railway link`
 - Install Python requirements `pip install -r requirements.txt`
 - Migrate the database `railway run python3 manage.py migrate`
 - Run Django `railway run python3 manage.py runserver`

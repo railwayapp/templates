@@ -12,7 +12,7 @@ This example starts a Discord bot using [discord.js](https://discord.js.org/#/).
 ## 💁‍♀️ How to use
 
 - Install dependencies `yarn`
-- Connect to your Railway project `railway init`
+- Connect to your Railway project `railway link`
 - Start the bot `railway run yarn dev`
 
 ## 📝 Notes

@@ -15,7 +15,7 @@ This is an [ExpressJS](https://expressjs.com/) REST API that uses [Prisma](https
 
 - Install dependencies `yarn`
 - [Provision a Postgres container on Railway](https://dev.new)
-- Connect to your Railway project with `railway init`
+- Connect to your Railway project with `railway link`
 - Migrate the database `railway run yarn migrate:dev`
 - Run the Server app `railway run yarn dev`
 

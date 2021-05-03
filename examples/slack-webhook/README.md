@@ -15,7 +15,7 @@ This example starts an [ExpressJS](https://expressjs.com/) server containing a p
 - Create a Slack app with an [incoming webhook](https://api.slack.com/messaging/webhooks).
 - Click the deploy button and add the `SLACK_WEBHOOK_URL`.
 - Install dependencies `yarn`
-- Connect to your Railway project `railway init`
+- Connect to your Railway project `railway link`
 - Start the development server `railway run yarn dev`
 
 ## 📝 Notes
