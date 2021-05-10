@@ -5,7 +5,8 @@ url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fex
 plugins:
   - postgresql
 envVars:
-  - SECRET_KEY: "Django secret key used for authentication"
+  - name: "SECRET_KEY"
+    description: "Django secret key used for authentication"
 tags:
   - python
   - django

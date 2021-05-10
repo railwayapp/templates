@@ -5,7 +5,8 @@ url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fex
 plugins:
   - postgresql
 envVars:
-  - HASURA_GRAPHQL_ADMIN_SECRET: "To secure your GraphQL endpoint and the Hasura console"
+  - name: "HASURA_GRAPHQL_ADMIN_SECRET"
+    description: "To secure your GraphQL endpoint and the Hasura console"
 tags:
   - postgres
   - hasura

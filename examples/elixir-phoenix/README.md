@@ -5,7 +5,8 @@ url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fex
 plugins:
   - postgresql
 envVars:
-  - SECRET_KEY_BASE: "> 64 character secret key"
+  - name: "SECRET_KEY_BASE"
+    description: "> 64 character secret key"
 tags:
   - elixir
   - phoenix

@@ -5,10 +5,14 @@ url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fex
 plugins:
   - mongodb
 envVars:
-  - NEXTAUTH_URL: "The canonical URL of your site"
-  - SECRET: "A random string used to hash tokens, sign cookies, and generate cryptographic keys"
-  - EMAIL_FROM: ""
-  - EMAIL_SERVER: ""
+  - name: "NEXTAUTH_URL"
+    description: "The canonical URL of your site"
+  - name: "SECRET"
+    description: "A random string used to hash tokens, sign cookies, and generate cryptographic keys"
+  - name: "EMAIL_FROM"
+    default: "http://localhost:3000"
+  - name: "EMAIL_SERVER"
+    default: "NextAuth <noreply@example.com>"
 tags:
   - next
   - nextauth.js

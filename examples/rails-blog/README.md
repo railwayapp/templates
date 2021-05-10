@@ -5,8 +5,8 @@ url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fex
 plugins:
   - postgresql
 envVars:
-  - USERNAME: ""
-  - PASSWORD: ""
+  - name: "USERNAME"
+  - name: "PASSWORD"
 tags:
   - ruby
   - rails

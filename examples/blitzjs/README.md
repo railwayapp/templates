@@ -5,7 +5,8 @@ url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fex
 plugins:
   - postgresql
 envVars:
-  - SESSION_SECRET_KEY: "> 32 character secret key"
+  - name: "SESSION_SECRET_KEY"
+    description: "> 32 character secret key"
 tags:
   - blitz
   - postgresql
