@@ -1,3 +1,13 @@
+---
+title: Elixir Phoenix
+description: A Phoenix application that connects to a PostgreSQL database
+url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Felixir-phoenix&plugins=postgresql&envs=SECRET_KEY_BASE&SECRET_KEY_BASEDesc=%3E+64+character+secret+key
+tags:
+  - elixir
+  - phoenix
+  - postgres
+---
+
 # Elixir Phoenix Example
 
 This example is a [Phoenix](https://www.phoenixframework.org/) application that

@@ -1,3 +1,12 @@
+---
+title: Deno
+description: A small Deno webserver
+url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fdeno
+tags:
+  - deno
+  - typescript
+---
+
 # Deno Example
 
 This example is a small [Deno](https://deno.land/) webserver.

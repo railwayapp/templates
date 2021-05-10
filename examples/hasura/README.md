@@ -1,3 +1,12 @@
+---
+title: Hasura
+description: A Hasura instance with a PostgreSQL database
+url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fhasura&plugins=postgresql&envs=HASURA_GRAPHQL_ADMIN_SECRET&HASURA_GRAPHQL_ADMIN_SECRETDesc=To+secure+your+GraphQL+endpoint+and+the+Hasura+console.
+tags:
+  - postgres
+  - hasura
+---
+
 # Hasura example
 
 This example sets up a [Hasura](https://hasura.io/opensource/) instance with a [PostgreSQL](https://www.postgresql.org/) database.

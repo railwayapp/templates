@@ -1,3 +1,12 @@
+---
+title: NuxtJS
+description: A basic NuxtJS app
+url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fnuxtjs
+tags:
+  - nuxt
+  - typescript
+---
+
 # NuxtJS Example
 
 This example starts a basic [NuxtJS](https://nuxtjs.org/) app.

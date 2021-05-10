@@ -1,3 +1,13 @@
+---
+title: ExpressJS Postgres
+description: An ExpressJS server that connects to a PostgreSQL database
+url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fexpressjs-postgres&plugins=postgresql
+tags:
+  - express
+  - postgres
+  - typescript
+---
+
 # ExpressJS Postgres Example
 
 This example starts an [ExpressJS](https://expressjs.com/) server that connects

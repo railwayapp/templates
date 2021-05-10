@@ -1,3 +1,13 @@
+---
+title: Rails Blog
+description: A Rails blog using a PostgreSQL database
+url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Frails-starter&plugins=postgresql&envs=USERNAME%2CPASSWORD
+tags:
+  - ruby
+  - rails
+  - postgres
+---
+
 # Rails Blog Example
 
 This is a [Ruby on Rails](https://rubyonrails.org/) blog that connects to a Railway Postgres database.

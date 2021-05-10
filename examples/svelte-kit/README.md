@@ -1,3 +1,12 @@
+---
+title: SvelteKit
+description: A simple SvelteKit app
+url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fsvelte-kit
+tags:
+  - svelte
+  - typescript
+---
+
 # SvelteKit Example
 
 This examples is a simple [SvelteKit](https://kit.svelte.dev/) app.
