@@ -2,6 +2,10 @@
 title: Umami
 description: A self-hosted version of Umami using a PostgreSQL database
 url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fumami&plugins=postgresql&envs=HASH_SALT&HASH_SALTDesc=Any+random+string+used+to+generate+unique+values+for+your+installation
+plugins:
+  - 'postgresql'
+envVars:
+  - HASH_SALT: 'Any random string used to generate unique values for your installation'
 tags:
   - nextjs
   - umami

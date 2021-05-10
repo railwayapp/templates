@@ -2,6 +2,10 @@
 title: Django
 description: A Django application that connects to a PostgreSQL database
 url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fdjangopy&plugins=postgresql&envs=SECRET_KEY&SECRET_KEYDesc=Django+secret+key+used+for+authentication
+plugins:
+  - postgresql
+envVars:
+  - SECRET_KEY: "Django secret key used for authentication"
 tags:
   - python
   - django

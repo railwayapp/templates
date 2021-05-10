@@ -2,6 +2,9 @@
 title: NextJS Notion Blog
 description: A NextJS app using Notion as a CMS for a blog
 url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fnext-notion-blog&envs=BLOG_INDEX_ID%2CNOTION_TOKEN
+envVars:
+  - BLOG_INDEX_ID: ''
+  - NOTION_TOKEN: ''
 tags:
   - next
   - notion

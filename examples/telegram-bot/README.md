@@ -2,6 +2,8 @@
 title: Telegram Bot
 description: An ExpressJS server with a Telegram bot
 url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Ftelegram-bot&envs=TELEGRAM_BOT_TOKEN
+envVars:
+  - TELEGRAM_BOT_TOKEN: ""
 tags:
   - express
   - telegraf

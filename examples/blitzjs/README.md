@@ -2,6 +2,10 @@
 title: BlitzJS
 description: Example Blitz app that connects to a PostgreSQL database
 url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fblitzjs&plugins=postgresql&envs=SESSION_SECRET_KEY&SESSION_SECRET_KEYDesc=%3E+32+character+secret+key
+plugins:
+  - postgresql
+envVars:
+  - SESSION_SECRET_KEY: "> 32 character secret key"
 tags:
   - blitz
   - postgresql
