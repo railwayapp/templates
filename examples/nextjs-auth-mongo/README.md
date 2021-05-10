@@ -10,9 +10,9 @@ envVars:
   - name: "SECRET"
     description: "A random string used to hash tokens, sign cookies, and generate cryptographic keys"
   - name: "EMAIL_FROM"
-    default: "http://localhost:3000"
+    defaultValue: "http://localhost:3000"
   - name: "EMAIL_SERVER"
-    default: "NextAuth <noreply@example.com>"
+    defaultValue: "NextAuth <noreply@example.com>"
 tags:
   - next
   - nextauth.js
