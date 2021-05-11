@@ -1,0 +1,37 @@
+// Colors ------------------------------------------------------ //
+$primary: rgba(115, 250, 200, 1);
+$secondary: rgba(0, 190, 225, 1);
+$tertiary: rgba(110, 115, 115, 1);
+$gradient: linear-gradient(135deg, $primary, $secondary);
+$white: rgba(255, 255, 255, 1);
+$light: rgba(255, 255, 255, .5);
+$black: rgba(40, 45, 45, 1);
+$dimmed: rgba(255, 255, 255, .05);
+$card: rgba(51, 56, 56, 1);
+$context: rgba(69, 74, 74, .86);
+$border: rgba(0, 0, 0, .3);
+$success: rgba(0, 255, 0, .1);
+$warning: rgba(255, 255, 0, .1);
+$error: rgba(255, 0, 0, .15);
+$destructive: rgba(255, 60, 60, 1);
+
+// Sizes ------------------------------------------------------- //
+$gutter: 1rem;
+$maxWidth: 1200px;
+$radius: 10px;
+$innerRadius: 8px;
+$cardContentHeight: 300px;
+$rowHeight: 32px;
+
+// Properties -------------------------------------------------- //
+$shadow: 0 2px 10px rgba(0, 0, 0, .12);
+
+// formbase ---------------------------------------------------- //
+$formbase__radius: $innerRadius;
+$formbase__margin: .9rem;
+$formbase__background: $dimmed;
+$formbase__svg: #fff;
+$formbase__color: $white;
+$formbase__border: transparent;
+$formbase__shadow: none;
+$formbase__active: $primary;

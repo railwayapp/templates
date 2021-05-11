@@ -1,0 +1,17 @@
+.select {
+
+	border-width: 2px;
+	padding-right: $gutter*2;
+
+	option {
+		// Some browser are using the color of the select to display options.
+		// Avoid invisible text by setting the option color back to black.
+		color: black;
+	}
+
+	&:disabled {
+		opacity: .6;
+		background-image: none;
+	}
+
+}

@@ -1,0 +1,23 @@
+.message {
+
+	margin-bottom: $gutter;
+	// Make the padding and border look like formbase
+	padding: $formbase__padding;
+	border: 2px solid transparent;
+	border-radius: $innerRadius;
+	color: $white;
+	font-size: .8em;
+
+	&--success {
+		background: $success;
+	}
+
+	&--warning {
+		background: $warning;
+	}
+
+	&--error {
+		background: $error;
+	}
+
+}

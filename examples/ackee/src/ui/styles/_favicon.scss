@@ -1,0 +1,14 @@
+.favicon {
+
+	width: $rowHeight;
+	height: $rowHeight;
+	background: $white;
+	border-radius: 100%;
+	border: 2px solid $white;
+	overflow: hidden;
+
+	&--missing {
+		background: $gradient;
+	}
+
+}
