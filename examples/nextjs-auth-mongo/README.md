@@ -1,18 +1,6 @@
 ---
 title: NextJS Auth
 description: A NextJS app using NextAuth.js for authentication with a MongoDB database
-url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fnextjs-auth&plugins=mongodb&envs=NEXTAUTH_URL%2CSECRET%2CEMAIL_FROM%2CEMAIL_SERVER&NEXTAUTH_URLDesc=The+canonical+URL+of+your+site&SECRETDesc=A+random+string+used+to+hash+tokens%2C+sign+cookies+and+generate+crytographic+keys&NEXTAUTH_URLDefault=http%3A%2F%2Flocalhost%3A3000&EMAIL_FROMDefault=NextAuth+%3Cnoreply%40example.com%3E
-plugins:
-  - mongodb
-envVars:
-  - name: "NEXTAUTH_URL"
-    description: "The canonical URL of your site"
-  - name: "SECRET"
-    description: "A random string used to hash tokens, sign cookies, and generate cryptographic keys"
-  - name: "EMAIL_FROM"
-    defaultValue: "http://localhost:3000"
-  - name: "EMAIL_SERVER"
-    defaultValue: "NextAuth <noreply@example.com>"
 tags:
   - next
   - nextauth.js

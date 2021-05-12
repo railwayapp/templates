@@ -1,9 +1,6 @@
 ---
 title: ExpressJS Mongoose
 description: An ExpressJS server that connects to a MongoDB database
-url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fexpressjs-mongoose&plugins=mongodb
-plugins:
-  - mongodb
 tags:
   - express
   - mongodb

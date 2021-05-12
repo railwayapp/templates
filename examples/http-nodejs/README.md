@@ -1,7 +1,6 @@
 ---
 title: HTTP Module
 description: A HTTP module server
-url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fhttp-nodejs
 tags:
   - http
   - javascript

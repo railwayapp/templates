@@ -1,12 +1,6 @@
 ---
 title: Rails Blog
 description: A Rails blog using a PostgreSQL database
-url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Frails-starter&plugins=postgresql&envs=USERNAME%2CPASSWORD
-plugins:
-  - postgresql
-envVars:
-  - name: "USERNAME"
-  - name: "PASSWORD"
 tags:
   - ruby
   - rails

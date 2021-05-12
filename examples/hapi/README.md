@@ -1,7 +1,6 @@
 ---
 title: Hapi
 description: A Hapi server
-url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fhapi
 tags:
   - hapi
   - typescript

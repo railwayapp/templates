@@ -1,9 +1,6 @@
 ---
 title: Express Slack Webhook
 description: An ExpressJS server with a POST request to emit a message on Slack
-url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fstarters%2Ftree%2Fmaster%2Fexamples%2Fslack-webhook&envs=SLACK_WEBHOOK_URL
-envVars:
-  - name: "SLACK_WEBHOOK_URL"
 tags:
   - express
   - typescript

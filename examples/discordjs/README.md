@@ -1,10 +1,6 @@
 ---
 title: Discord bot
 description: A Discord bot written in TypeScript
-url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fdiscordjs&envs=DISCORD_TOKEN&DISCORD_TOKENDesc=Token+of+the+Discord+account+used
-envVars:
-  - name: "DISCORD_TOKEN"
-    description: "Token for the Discord account used"
 tags:
   - discord.js
   - typescript

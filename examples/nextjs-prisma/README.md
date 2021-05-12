@@ -1,9 +1,6 @@
 ---
 title: NextJS Prisma
 description: A NextJS app using Prisma with a PostgreSQL database
-url: https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fnextjs-prisma&plugins=postgresql
-plugins:
-  - postgresql
 tags:
   - next
   - prisma
