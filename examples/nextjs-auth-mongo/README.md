@@ -14,7 +14,7 @@ The example is a [NextJS](https://nextjs.org/) app with authentication using [Ne
 
 It uses [MongoDB](https://www.mongodb.com/) to persist user accounts and support email sign in. Adding additional providers is as simple as commenting them out from `/pages/api/auth/[...nextauth].js`.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fnextjs-auth&plugins=mongodb&envs=NEXTAUTH_URL%2CSECRET%2CEMAIL_FROM%2CEMAIL_SERVER&NEXTAUTH_URLDesc=The+canonical+URL+of+your+site&SECRETDesc=A+random+string+used+to+hash+tokens%2C+sign+cookies+and+generate+crytographic+keys&NEXTAUTH_URLDefault=http%3A%2F%2Flocalhost%3A3000&EMAIL_FROMDefault=NextAuth+%3Cnoreply%40example.com%3E)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fnextjs-auth-mongo&plugins=mongodb&envs=NEXTAUTH_URL%2CSECRET%2CEMAIL_FROM%2CEMAIL_SERVER&NEXTAUTH_URLDesc=The+canonical+URL+of+your+site&SECRETDesc=A+random+string+used+to+hash+tokens%2C+sign+cookies+and+generate+crytographic+keys&NEXTAUTH_URLDefault=http%3A%2F%2Flocalhost%3A3000&EMAIL_FROMDefault=NextAuth+%3Cnoreply%40example.com%3E)
 
 ## ✨ Features
 
