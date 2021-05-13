@@ -1,3 +1,11 @@
+---
+title: Ackee
+description: A self-hosted version of Ackee using a MongoDB database
+tags:
+  - ackee
+  - mongodb
+---
+
 # Ackee example
 
 This example deploys self-hosted version of [Ackee](https://ackee.electerious.com/). Internally it uses a MongoDB database to store the collected data.
