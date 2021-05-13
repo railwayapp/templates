@@ -1,3 +1,13 @@
+---
+title: NextJS Auth
+description: A NextJS app using NextAuth.js for authentication with a MongoDB database
+tags:
+  - next
+  - nextauth.js
+  - mongodb
+  - javascript
+---
+
 # NextJS Auth Example
 
 The example is a [NextJS](https://nextjs.org/) app with authentication using [NextAuth.js](https://next-auth.js.org/).

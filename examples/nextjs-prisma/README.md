@@ -1,3 +1,13 @@
+---
+title: NextJS Prisma
+description: A NextJS app using Prisma with a PostgreSQL database
+tags:
+  - next
+  - prisma
+  - postgres
+  - typescript
+---
+
 # NextJS Prisma Example
 
 This example is a [NextJS](https://nextjs.org/) todo app that uses

@@ -1,3 +1,11 @@
+---
+title: NuxtJS
+description: A basic NuxtJS app
+tags:
+  - nuxt
+  - typescript
+---
+
 # NuxtJS Example
 
 This example starts a basic [NuxtJS](https://nuxtjs.org/) app.

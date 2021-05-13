@@ -1,3 +1,11 @@
+---
+title: Hasura
+description: A Hasura instance with a PostgreSQL database
+tags:
+  - postgres
+  - hasura
+---
+
 # Hasura example
 
 This example sets up a [Hasura](https://hasura.io/opensource/) instance with a [PostgreSQL](https://www.postgresql.org/) database.

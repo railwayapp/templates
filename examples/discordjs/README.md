@@ -1,3 +1,11 @@
+---
+title: Discord bot
+description: A Discord bot written in TypeScript
+tags:
+  - discord.js
+  - typescript
+---
+
 # Discord.js Example
 
 This example starts a Discord bot using [discord.js](https://discord.js.org/#/).

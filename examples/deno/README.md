@@ -1,3 +1,11 @@
+---
+title: Deno
+description: A small Deno webserver
+tags:
+  - deno
+  - typescript
+---
+
 # Deno Example
 
 This example is a small [Deno](https://deno.land/) webserver.

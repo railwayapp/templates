@@ -1,3 +1,11 @@
+---
+title: SvelteKit
+description: A simple SvelteKit app
+tags:
+  - svelte
+  - typescript
+---
+
 # SvelteKit Example
 
 This examples is a simple [SvelteKit](https://kit.svelte.dev/) app.

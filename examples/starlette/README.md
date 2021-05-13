@@ -1,3 +1,11 @@
+---
+title: Starlette
+description: A Starlette app with a simple JSON response
+tags:
+  - python
+  - starlette
+---
+
 # Python Starlette Example
 
 This is a [Starlette](https://www.starlette.io/) app that serves a simple JSON response.
@@ -10,6 +18,7 @@ This is a [Starlette](https://www.starlette.io/) app that serves a simple JSON r
 - Starlette
 
 ## 💁‍♀️ How to use
+
 - Build the docker image `docker build -t railway .`
 - Start the container `docker run -d --name railway-test -p 80:80 railway`
 - For auto restart in development `docker run -d -p 80:80 -v $(pwd):/app railway /start-reload.sh`

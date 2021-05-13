@@ -1,3 +1,12 @@
+---
+title: ExpressJS Postgres
+description: An ExpressJS server that connects to a PostgreSQL database
+tags:
+  - express
+  - postgres
+  - typescript
+---
+
 # ExpressJS Postgres Example
 
 This example starts an [ExpressJS](https://expressjs.com/) server that connects

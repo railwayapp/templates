@@ -1,3 +1,12 @@
+---
+title: Elixir Phoenix
+description: A Phoenix application that connects to a PostgreSQL database
+tags:
+  - elixir
+  - phoenix
+  - postgres
+---
+
 # Elixir Phoenix Example
 
 This example is a [Phoenix](https://www.phoenixframework.org/) application that

@@ -1,3 +1,13 @@
+---
+title: BlitzJS
+description: Example Blitz app that connects to a PostgreSQL database
+tags:
+  - blitz
+  - postgresql
+  - typescript
+  - prisma
+---
+
 # Blitz.js Postgres Example
 
 This example is a [Blitz.js](https://blitzjs.com/) app that connects to a

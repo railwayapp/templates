@@ -1,3 +1,12 @@
+---
+title: Rails Starter
+description: A Rails starter app using a PostgreSQL database
+tags:
+  - ruby
+  - rails
+  - postgres
+---
+
 # Rails Starter Example
 
 This is a [Ruby on Rails](https://rubyonrails.org/) starter app that connects to a Railway Postgres database.

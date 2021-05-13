@@ -1,3 +1,11 @@
+---
+title: ExpressJS
+description: An ExpressJS server
+tags:
+  - express
+  - typescript
+---
+
 # ExpressJS Example
 
 This example starts an [ExpressJS](https://expressjs.com/) server.

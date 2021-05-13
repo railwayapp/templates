@@ -1,3 +1,11 @@
+---
+title: HTTP Module
+description: A HTTP module server
+tags:
+  - http
+  - javascript
+---
+
 # HTTP Module Example
 
 This example starts an [HTTP Module](https://nodejs.org/api/http.html) server.

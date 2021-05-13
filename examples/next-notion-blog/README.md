@@ -1,3 +1,13 @@
+---
+title: NextJS Notion Blog
+description: A NextJS app using Notion as a CMS for a blog
+tags:
+  - next
+  - notion
+  - tailwind
+  - typescript
+---
+
 # NextJS Notion blog example
 
 This is an example [NextJS](https://nextjs.org/) app that uses [Notion](https://www.notion.so/) as a CMS for a blog.

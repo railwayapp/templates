@@ -1,3 +1,11 @@
+---
+title: Hapi
+description: A Hapi server
+tags:
+  - hapi
+  - typescript
+---
+
 # Hapi Example
 
 This example starts a [Hapi](https://hapi.dev/) server.

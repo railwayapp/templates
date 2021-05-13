@@ -1,3 +1,12 @@
+---
+title: Telegram Bot
+description: An ExpressJS server with a Telegram bot
+tags:
+  - express
+  - telegraf
+  - typescript
+---
+
 # Telegram bot example
 
 This example starts a [Telegram](https://telegram.org/) bot on an [ExpressJS](https://expressjs.com/) server.

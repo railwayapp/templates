@@ -1,3 +1,11 @@
+---
+title: Sinatra
+description: A Sinatra webserver
+tags:
+  - ruby
+  - sinatra
+---
+
 # Sinatra Example
 
 This example is a simple [Sinatra](http://sinatrarb.com) webserver.

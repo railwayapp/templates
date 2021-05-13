@@ -1,3 +1,13 @@
+---
+title: ExpressJS Prisma
+description: An ExpressJS server that uses Prisma to connect to a PostgreSQL database
+tags:
+  - express
+  - postgres
+  - prisma
+  - typescript
+---
+
 # ExpressJS Prisma Example
 
 This is an [ExpressJS](https://expressjs.com/) REST API that uses [Prisma](https://www.prisma.io/) to connect to a Postgres database and CRUD todos.

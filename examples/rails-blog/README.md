@@ -1,3 +1,12 @@
+---
+title: Rails Blog
+description: A Rails blog using a PostgreSQL database
+tags:
+  - ruby
+  - rails
+  - postgres
+---
+
 # Rails Blog Example
 
 This is a [Ruby on Rails](https://rubyonrails.org/) blog that connects to a Railway Postgres database.

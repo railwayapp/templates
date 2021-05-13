@@ -1,3 +1,11 @@
+---
+title: Rust Rocket
+description: A Rocket webserver
+tags:
+  - rust
+  - rocket
+---
+
 # Rust Rocket Example
 
 This example is a [Rocket](https://rocket.rs) web server

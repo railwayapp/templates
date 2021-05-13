@@ -1,3 +1,12 @@
+---
+title: Django
+description: A Django application that connects to a PostgreSQL database
+tags:
+  - python
+  - django
+  - postgres
+---
+
 # Django Example
 
 This is a [Django](https://www.djangoproject.com/) application that connects to a Railway Postgres database.

@@ -1,3 +1,11 @@
+---
+title: Express Slack Webhook
+description: An ExpressJS server with a POST request to emit a message on Slack
+tags:
+  - express
+  - typescript
+---
+
 # Slack webhook starter
 
 This example starts an [ExpressJS](https://expressjs.com/) server containing a post request to emit a message on Slack.
