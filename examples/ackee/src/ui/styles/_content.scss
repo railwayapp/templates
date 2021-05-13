@@ -1,0 +1,22 @@
+.content {
+
+	--columns: 2;
+
+	display: grid;
+	grid-template-columns: repeat(var(--columns), minmax(0, 1fr));
+	gap: $gutter;
+	margin: 0 auto;
+	padding: 6vh $gutter;
+	width: 100%;
+	max-width: $maxWidth;
+
+	@media (max-width: 800px) {
+		--columns: 1;
+	}
+
+	&__spacer {
+		height: 3vh;
+		grid-column: 1 / -1;
+	}
+
+}
