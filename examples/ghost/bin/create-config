@@ -1,0 +1,86 @@
+#!/usr/bin/env node
+
+/*
+  This file creates and writes our production config after the build has been completed.
+  Make changes here if you want to use a different image storage service or email provider.
+*/
+
+var fs = require("fs");
+var path = require("path");
+
+var appRoot = path.join(__dirname, "..");
+
+function createConfig() {
+  var fileStorage, storage;
+
+  if (process.env.CLOUDINARY_URL) {
+    console.log("CLOUDINARY_URL found, setting storage to cloudinary");
+    fileStorage = true;
+    storage = {
+      active: "cloudinary",
+      cloudinary: {
+        useDatedFolder: false,
+        upload: {
+          use_filename: true,
+          unique_filename: false,
+          overwrite: false,
+          folder: "ghost-blog-images",
+          tags: ["blog"],
+        },
+        fetch: {
+          quality: "auto",
+          secure: true,
+          cdn_subdomain: true,
+        },
+      },
+    };
+  } else {
+    console.log("CLOUDINARY_URL not found, setting storage to false");
+    fileStorage = false;
+    storage = {};
+  }
+
+  config = {
+    url: "https://" + process.env.RAILWAY_STATIC_URL,
+    logging: {
+      level: "info",
+      transports: ["stdout"],
+    },
+    mail: {
+      transport: "SMTP",
+      options: {
+        service: "Mailgun",
+        auth: {
+          user: process.env.MAILGUN_SMTP_LOGIN,
+          pass: process.env.MAILGUN_SMTP_PASSWORD,
+        },
+      },
+    },
+    fileStorage: fileStorage,
+    storage: storage,
+    database: {
+      client: "mysql",
+      connection: {
+        host: process.env.MYSQLHOST,
+        port: process.env.MYSQLPORT,
+        user: process.env.MYSQLUSER,
+        password: process.env.MYSQLPASSWORD,
+        database: process.env.MYSQLDATABASE,
+      },
+      pool: { min: 0, max: 5 },
+      debug: false,
+    },
+    server: {
+      host: "0.0.0.0",
+      port: process.env.PORT,
+    },
+    paths: {
+      contentPath: path.join(appRoot, "/content/"),
+    },
+  };
+
+  return config;
+}
+
+var configContents = JSON.stringify(createConfig(), null, 2);
+fs.writeFileSync(path.join(appRoot, "config.production.json"), configContents);
