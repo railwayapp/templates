@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './components/buttons.css';
+@import './components/spinner.css';
+
+body {
+    background-color: #f3f4f6;
+}
+
+.text-white-important {
+    color: white !important;
+}
+
+@layer utilities {
+    .transition-max-width {
+        -webkit-transition-property: max-width;
+        transition-property: max-width;
+    }
+}
+
+#timeZone input:focus {
+    box-shadow: none;
+}
