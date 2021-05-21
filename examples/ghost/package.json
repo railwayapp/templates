@@ -1,0 +1,22 @@
+{
+  "name": "ghost",
+  "version": "0.0.1",
+  "description": "Deploy Ghost v4 on Railway",
+  "main": "index.js",
+  "author": "farazpatankar",
+  "license": "MIT",
+  "engines": {
+    "node": "12.X"
+  },
+  "dependencies": {
+    "casper": "github:TryGhost/Casper#main",
+    "ghost": "^4.3.3",
+    "ghost-storage-cloudinary": "^2.1.5",
+    "lyra": "github:TryGhost/lyra#master",
+    "mysql2": "^2.2.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "bin/alter-auth-method && bash bin/cloudinary.sh && bash bin/themes.sh"
+  }
+}
