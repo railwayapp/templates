@@ -10,7 +10,7 @@ tags:
 
 This example deploys self-hosted version of [Ghost](https://ghost.org/). Internally it uses a MySQL database to store the data.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fghost&plugins=mysql&envs=CLOUDINARY_URL%2CMAILGUN_SMTP_LOGIN%2CMAILGUN_SMTP_PASSWORD&optionalEnvs=CLOUDINARY_URL%2CMAILGUN_SMTP_LOGIN&CLOUDINARY_URLDesc=For+file+storage.+If+you+do+not+add+this%2C+your+images+won%27t+persist+between+deploys)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fghost&plugins=mysql&envs=CLOUDINARY_URL%2CMAILGUN_SMTP_LOGIN%2CMAILGUN_SMTP_PASSWORD&optionalEnvs=CLOUDINARY_URL%2CMAILGUN_SMTP_LOGIN%2CMAILGUN_SMTP_PASSWORD&CLOUDINARY_URLDesc=For+file+storage.+If+you+do+not+add+this%2C+your+images+won%27t+persist+between+deploys)
 
 ## ✨ Features
 
