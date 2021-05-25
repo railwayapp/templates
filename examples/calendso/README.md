@@ -26,4 +26,4 @@ This example deploys a self-hosted version of [Calendso](https://calendso.com/).
 
 ## 📝 Notes
 
-- You need to set up Google API credentials to use this starter. We've written an entire [blog post](http://blog.railway.app/calendso) on it to help you through the process.
+- You need to set up Google API credentials to use this starter. We've written an entire [blog post](http://blog.railway.app/p/calendso) on it to help you through the process.
