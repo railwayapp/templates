@@ -1,6 +1,7 @@
 import { Cell, Universe } from "crate";
 import { memory } from "crate/pkg/crate_bg.wasm";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { Play, Pause, RefreshCw } from "react-feather";
 import tw from "twin.macro";
 import { Link } from "./Link";
 
@@ -11,8 +12,8 @@ const ALIVE_COLOR = "#000000";
 
 const Life: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
-
   const universeRef = useRef(Universe.new());
+  const [isPaused, setIsPaused] = useState(false);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -73,22 +74,32 @@ const Life: React.FC = () => {
       ctx.stroke();
     };
 
+    let animationId: number | null = null;
+
     const renderLoop = () => {
-      universe.tick();
+      if (!isPaused) {
+        universe.tick();
+      }
 
       drawGrid();
       drawCells();
 
-      requestAnimationFrame(renderLoop);
+      animationId = requestAnimationFrame(renderLoop);
     };
 
     renderLoop();
-  }, []);
+
+    return () => {
+      if (animationId != null) {
+        cancelAnimationFrame(animationId);
+      }
+    };
+  }, [isPaused]);
 
   return (
     <div tw="leading-none">
-      <div tw="flex items-end space-x-12 mb-4">
-        <div tw="space-y-4">
+      <div tw="mb-4">
+        <div tw="space-y-4 mb-4">
           <h1 tw="font-bold text-4xl">Game of Life</h1>
           <p>
             Implemented in Rust based off the{" "}
@@ -101,17 +112,23 @@ const Life: React.FC = () => {
           </p>
         </div>
 
-        <button
-          onClick={() => {
-            universeRef?.current.restart();
-          }}
-          css={[
-            tw`rounded shadow text-white bg-pink-500 px-3 py-1 text-base`,
-            tw`hover:bg-pink-600 active:bg-pink-700 focus:outline-none`,
-          ]}
-        >
-          Restart
-        </button>
+        <div tw="flex space-x-4 mt-4">
+          <button
+            onClick={() => setIsPaused(!isPaused)}
+            css={[tw`focus:outline-none focus:ring ring-pink-500 rounded-sm`]}
+          >
+            {isPaused ? <Play /> : <Pause />}
+          </button>
+
+          <button
+            onClick={() => {
+              universeRef?.current.restart();
+            }}
+            css={[tw`focus:outline-none focus:ring ring-pink-500 rounded-sm`]}
+          >
+            <RefreshCw />
+          </button>
+        </div>
       </div>
 
       <canvas ref={canvasRef} />
