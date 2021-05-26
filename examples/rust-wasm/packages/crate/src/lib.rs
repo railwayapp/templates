@@ -132,12 +132,10 @@ impl Universe {
 }
 
 fn new_cell() -> Cell {
-    unsafe {
-        if random() < 0.5 {
-            Cell::Alive
-        } else {
-            Cell::Dead
-        }
+    if random() < 0.5 {
+        Cell::Alive
+    } else {
+        Cell::Dead
     }
 }
 
