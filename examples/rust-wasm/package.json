@@ -17,8 +17,9 @@
     "start": "yarn workspace www start",
     "clean": "wsrun --exclude-missing clean"
   },
-  "dependencies": {
+  "devDependencies": {
     "concurrently": "^6.1.0",
-    "wsrun": "^5.2.4"
+    "wsrun": "^5.2.4",
+    "prettier": "^2.2.1"
   }
 }
