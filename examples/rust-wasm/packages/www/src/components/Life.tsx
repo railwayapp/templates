@@ -1,6 +1,6 @@
-import React, { useEffect, useMemo, useRef } from "react";
-import { Universe, Cell } from "crate";
+import { Cell, Universe } from "crate";
 import { memory } from "crate/pkg/crate_bg.wasm";
+import React, { useEffect, useRef } from "react";
 import tw from "twin.macro";
 import { Link } from "./Link";
 
