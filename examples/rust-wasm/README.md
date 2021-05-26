@@ -1,30 +1,38 @@
 ---
-title: SvelteKit
-description: A simple SvelteKit app
+title: WASM Rust
+description: Game of life implemented in Rust and served with NextJS
 tags:
-  - svelte
+  - wasm
+  - rust
+  - next
   - typescript
+  - tailwind
 ---
 
-# SvelteKit Example
+# WebAssembly Rust
 
-This examples is a simple [SvelteKit](https://kit.svelte.dev/) app.
+This example is a implements [Conway's Game of
+Life](https://rustwasm.github.io/book/game-of-life/introduction.html) tutorial
+in Rust and WebAssembly. The frontend is served as a
+[NextJS](https://nextjs.org/) app with TypeScript and Tailwind.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fsvelte-kit)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Frust-wasm)
 
 ## ✨ Features
 
-- Svelte
+- Rust
+- WASM
 - TypeScript
+- NextJS
+- Tailwind
 
 ## 💁‍♀️ How to use
 
-- Install dependencies `yarn`
-- Connect to your Railway project `railway link`
-- Start the development server `railway run yarn dev`
+- Ensure you have the [Rust toolchain](https://www.rust-lang.org/) setup
+- Install [wasm-pack](https://rustwasm.github.io/wasm-pack/)
+- Install deps with `yarn`
+- Run app in development `yarn dev`
 
 ## 📝 Notes
 
-This example was created by running `npm init svelte@next`. SvelteKit is beta
-software and may have bugs. Please see the [official
-documentation](https://kit.svelte.dev/docs) for more info.
+This starter implements part of the official [Rust WASM tutorial](https://rustwasm.github.io/book/game-of-life/introduction.html).
