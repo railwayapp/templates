@@ -2,6 +2,7 @@ mod utils;
 
 use std::fmt;
 
+use js_sys::Math::random;
 use wasm_bindgen::prelude::*;
 
 // When the `wee_alloc` feature is enabled, use `wee_alloc` as the global
@@ -41,15 +42,7 @@ impl Universe {
         let width = 64;
         let height = 64;
 
-        let cells = (0..width * height)
-            .map(|i| {
-                if i % 2 == 0 || i % 7 == 0 {
-                    Cell::Alive
-                } else {
-                    Cell::Dead
-                }
-            })
-            .collect();
+        let cells = (0..width * height).map(|_i| new_cell()).collect();
 
         Universe {
             width,
@@ -59,15 +52,7 @@ impl Universe {
     }
 
     pub fn restart(&mut self) {
-        self.cells = (0..self.width * self.height)
-            .map(|i| {
-                if i % 2 == 0 || i % 7 == 0 {
-                    Cell::Alive
-                } else {
-                    Cell::Dead
-                }
-            })
-            .collect();
+        self.cells = (0..self.width * self.height).map(|_i| new_cell()).collect();
     }
 
     pub fn render(&self) -> String {
@@ -143,6 +128,16 @@ impl Universe {
         }
 
         self.cells = next;
+    }
+}
+
+fn new_cell() -> Cell {
+    unsafe {
+        if random() < 0.5 {
+            Cell::Alive
+        } else {
+            Cell::Dead
+        }
     }
 }
 

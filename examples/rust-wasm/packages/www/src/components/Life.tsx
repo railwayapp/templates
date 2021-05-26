@@ -88,8 +88,8 @@ const Life: React.FC = () => {
   return (
     <div tw="leading-none">
       <div tw="flex items-end space-x-12 mb-4">
-        <div tw="space-y-2">
-          <h1 tw="font-bold text-3xl">Game of Life</h1>
+        <div tw="space-y-4">
+          <h1 tw="font-bold text-4xl">Game of Life</h1>
           <p>
             Implemented in Rust based off the{" "}
             <Link

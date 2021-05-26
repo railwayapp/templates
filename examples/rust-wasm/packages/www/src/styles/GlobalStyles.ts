@@ -4,7 +4,7 @@ import tw from "twin.macro";
 export const GlobalStyles = createGlobalStyle`
   body {
     ${tw`antialiased`}
-    ${tw`text-fg bg-bg leading-relaxed`}
+    ${tw`text-black bg-gray-50 leading-relaxed`}
     ${tw`font-sans`}
   }
 `;
