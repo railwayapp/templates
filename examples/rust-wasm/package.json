@@ -1,0 +1,25 @@
+{
+  "name": "wasm-starter",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "yarn build:wasm && concurrently -n crate,www -c magenta,cyan \"yarn dev:www\" \"yarn dev:wasm\" ",
+    "dev:www": "yarn workspace www dev",
+    "dev:wasm": "yarn workspace crate dev",
+    "build": "yarn build:wasm && yarn build:www",
+    "build:www": "yarn workspace www build",
+    "build:wasm": "yarn workspace crate build",
+    "start": "yarn workspace www start",
+    "clean": "wsrun --exclude-missing clean"
+  },
+  "devDependencies": {
+    "concurrently": "^6.1.0",
+    "wsrun": "^5.2.4",
+    "prettier": "^2.2.1"
+  }
+}

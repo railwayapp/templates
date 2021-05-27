@@ -1,0 +1,13 @@
+{
+  "name": "crate",
+  "private": true,
+  "version": "0.0.1",
+  "author": "Jake Runzer <jakerunzer@gmail.com>",
+  "license": "MIT",
+  "main": "pkg/crate.js",
+  "scripts": {
+    "dev": "cargo watch -i .gitignore -i 'pkg/*' -s 'wasm-pack build'",
+    "build": "wasm-pack build",
+    "clean": "cargo clean && rm -rf pkg"
+  }
+}
