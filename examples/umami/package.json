@@ -11,9 +11,10 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "npm-run-all build-tracker build-lang build-geo build-db build-app",
+    "build": "npm-run-all build-tracker build-lang build-geo build-db build-app db-push",
     "start": "next start",
     "start-env": "node -r dotenv/config scripts/start-env.js",
+    "db-push": "prisma db push --preview-feature",
     "build-app": "next build",
     "build-tracker": "rollup -c rollup.tracker.config.js",
     "build-db": "npm-run-all copy-db-schema build-db-client",
