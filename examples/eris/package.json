@@ -1,0 +1,13 @@
+{
+  "name": "eris",
+  "version": "1.0.0",
+  "description": "A discord bot made in Eris.",
+  "main": "src/index.js",
+  "repository": "https://github.com/railwayapp/starters",
+  "author": "Yoshida Tomio",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "eris": "^0.15.1"
+  }
+}
