@@ -160,6 +160,18 @@
       "href": "https://github.com/railwayapp/starters/tree/master/examples/svelte-kit",
       "icon": "svelte.svg",
       "tags": ["typescript", "svelte"]
+    },
+    {
+      "text": "Eris",
+      "value": "eris",
+      "desc": "Discord bot made in JavaScript and Eris",
+      "href": "https://github.com/railwayapp/starters/tree/master/examples/eris",
+      "plugins": [],
+      "icon": "discord.svg",
+      "tags": ["javascript", "bot"],
+      "envVars": [
+        { "name": "DISCORD_TOKEN", "desc": "Token of the Discord account used" }
+      ]
     }
   ]
 }
