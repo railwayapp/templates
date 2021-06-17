@@ -6,7 +6,6 @@
     "start": "blitz start --port ${PORT-3000}",
     "studio": "blitz prisma studio",
     "build": "yarn migrate:deploy && blitz build",
-    "start:production": "blitz start --production --port $PORT",
     "migrate:dev": "blitz prisma migrate dev --preview-feature",
     "migrate:deploy": "blitz prisma migrate deploy --preview-feature",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
