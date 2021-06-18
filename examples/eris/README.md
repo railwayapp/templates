@@ -1,6 +1,6 @@
 ---
-title: Discord bot
-description: A Discord bot written in JavaScript
+title: Discord Eris bot
+description: A Discord bot written using the JavaScript Eris library
 tags:
   - eris
   - javascript
