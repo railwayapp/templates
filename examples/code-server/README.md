@@ -8,6 +8,6 @@ tags:
   - ide
 ---
 
-# Code Server Example
+# code-server Example
 
-This example is maintained by the [Coder](https://coder.com/) team and the source code can be found [here](https://github.com/cdr/deploy-code-server).
+This example is maintained by the [Coder](https://coder.com/) team and the source code can be found [here](https://github.com/cdr/code-server).
