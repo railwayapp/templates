@@ -1,6 +1,4 @@
 import { Client, Message } from 'discord.js';
-const { DISCORD_TOKEN } = process.env; // The TOKEN from railway
-
 const client = new Client();
 
 client.on('ready', () => {
@@ -15,4 +13,4 @@ client.on('message', (msg: Message) => {
 	}
 });
 
-client.login(DISCORD_TOKEN);
+client.login();
