@@ -1,7 +1,7 @@
 ---
 title: Calendso
 description: A self-hosted version of Calendso using a PostgreSQL database
-buttonSource: https://github.com/railwayapp-starters/calendso/blob/main/README.md
+buttonSource: https://github.com/calendso/calendso/blob/main/README.md
 tags:
   - calendso
   - postgres
@@ -10,4 +10,4 @@ tags:
 
 # Calendso example
 
-This example has been moved to the [railwayapp-starters](https://github.com/railwayapp-starters) organization and can be found [here](https://github.com/railwayapp-starters/calendso).
+To provide the latest version of Calendso, we deploy the code maintained by the [Calendso](https://calendso.com/) team. You can find the source code [here](https://github.com/calendso/calendso).
