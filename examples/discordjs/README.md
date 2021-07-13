@@ -1,9 +1,9 @@
 ---
 title: Discord bot
-description: A Discord bot written in TypeScript
+description: A Discord bot written in JavaScript
 tags:
   - discord.js
-  - typescript
+  - javascript
 ---
 
 # Discord.js Example
