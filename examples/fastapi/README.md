@@ -1,36 +1,25 @@
-# FastAPI-Railway.app
+---
+title: FastAPI
+description: A FastAPI server
+tags:
+  - fastapi
+  - python
+---
 
-A sample python **[FastAPI](https://fastapi.tiangolo.com/)** (api app) to run on **[Railway.app](https://railway.app)**
+# FastAPI Example
 
-To setup and run Railway app follow these steps https://docs.railway.app/getting-started
+This example starts a [FastAPI](https://fastapi.tiangolo.com/) server. The sample API includes a random number generator with min and max limits.
 
-Few things different from the [Flask example](https://github.com/railwayapp/starters/tree/master/examples/flask):
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fstarters%2Ftree%2Fmaster%2Fexamples%2Ffastapi)
 
-Main difference between Flask and FastAPI is, Flask is WSGI and FastAPI is ASGI so Flask gunicorn wont work with FastAPI, you need to use uvicorn instead of gunicorn.
+## ✨ Features
 
-- Procfile is modified to call the 'python main.py'
-- main.py uses uvicorn to start the app from **main** function
-- In uvicorn.run(...) along with the port it needs host="0.0.0.0" # I am not sure why this is required
+- FastAPI
+- Python
 
-This sample api includes a random number generator (with min and max limits)
+## 💁‍♀️ How to use
 
-##### App Routes
-
-Route Root
-
-> localhost:8080/
-> returns {"Hello": "World from FastAPI"}
-
-Route Random (Default)
-
-> localhost:8080/random
-> returns a random number between 0 to 9
-> ex:- {"value":8}
-
-Route Random with min/max
-
-> localhost:8080/random?min=100&max500
-> returns a random number between 100 and 500
-> ex:- {"value":421}
-
-Let me know if you have any questions [@prakis](https://twitter.com/prakis)
+- Deploy using the button 👆
+- Clone locally and connect to your project using `railway link`
+- Install packages using `pip install -r requirements.txt`
+- Run locally using `python main.py`
