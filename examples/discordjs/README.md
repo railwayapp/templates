@@ -1,5 +1,5 @@
 ---
-title: Discord bot
+title: Discord JavaScript bot
 description: A Discord bot written in JavaScript
 tags:
   - discord.js
@@ -8,9 +8,9 @@ tags:
 
 # Discord.js Example
 
-This example starts a Discord bot using [discord.js](https://discord.js.org/#/).
+This example starts a Discord bot using [discord.js](https://discord.js.org).
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fdiscordjs&envs=DISCORD_TOKEN&DISCORD_TOKENDesc=Token+of+the+Discord+account+used)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fdiscordjs&envs=DISCORD_TOKEN&DISCORD_TOKENDesc=Token+of+your+Discord+bot)
 
 ## ✨ Features
 

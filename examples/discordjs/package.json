@@ -1,17 +1,17 @@
 {
   "name": "discordjs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index",
   "author": "Jake Runzer",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "dev": "nodemon .",
+    "start": "node ."
   },
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^13.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.12"
   }
 }

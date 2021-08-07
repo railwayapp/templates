@@ -1,19 +1,16 @@
-const Discord = require("discord.js");
-const client = new Discord.Client();
+const { Client } = require('discord.js');
+const client = new Client({ intents: 513 });
 
-// Token from Railway
-const TOKEN = process.env.DISCORD_TOKEN;
-
-client.on("ready", () => {
+client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on("message", msg => {
-  if (msg.content === "ping") {
-    msg.reply("Pong 🏓");
-  } else if (msg.content === "hello") {
-    msg.reply("Choo choo! 🚅");
+client.on('messageCreate', msg => {
+  if (msg.content === 'ping') {
+    msg.channel.send('Pong 🏓');
+  } else if (msg.content === 'hello') {
+    msg.channel.send('Choo choo! 🚅');
   }
 });
 
-client.login(TOKEN);
+client.login();
