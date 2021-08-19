@@ -40,8 +40,8 @@ func main() {
 }
 
 func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
-	// Don't proceed if the message author is the bot itself, or another bot
-	if m.Author.ID == s.State.User.ID || m.Author.Bot {
+	// Don't proceed if the message author is a bot
+	if m.Author.Bot {
 		return
 	}
 
