@@ -1,7 +1,9 @@
-import { Client, Message } from 'discord.js';
-const client = new Client();
+import { Client, Intents, Message } from 'discord.js';
+const client = new Client({
+  intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
+});
 
-client.on('ready', () => {
+client.once('ready', () => {
   console.log(`Logged in as ${client.user?.tag}!`);
 });
 
