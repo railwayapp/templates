@@ -9,9 +9,12 @@
     "start": "node src/index.js"
   },
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^13.1.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.12"
+  },
+  "engines": {
+    "node": ">=16.6.0"
   }
 }

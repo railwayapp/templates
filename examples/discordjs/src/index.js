@@ -1,10 +1,12 @@
-const Discord = require("discord.js");
-const client = new Discord.Client();
+const { Client, Intents } = require("discord.js");
+const client = new Client({
+  intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
+});
 
 // Token from Railway
 const TOKEN = process.env.DISCORD_TOKEN;
 
-client.on("ready", () => {
+client.once("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
