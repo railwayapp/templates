@@ -8,6 +8,6 @@ ENV ROCKET_ENV=staging
 WORKDIR /app
 COPY . .
 
-RUN cargo build
+RUN cargo build --release
 
-CMD ROCKET_PORT=$PORT cargo run
+CMD ROCKET_PORT=$PORT ./target/release/rocket
