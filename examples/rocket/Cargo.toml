@@ -8,3 +8,6 @@ edition = "2018"
 
 [dependencies]
 rocket = "0.4.6"
+
+[profile.release]
+lto = "fat"
