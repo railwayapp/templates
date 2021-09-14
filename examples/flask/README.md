@@ -1,6 +1,6 @@
 ---
 title: Flask
-description: A Flask app
+description: A popular minimal server framework for Python.
 tags:
   - python
   - flask
