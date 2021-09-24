@@ -5,6 +5,8 @@ buttonSource: https://github.com/railwayapp-starters/ghost/blob/main/README.md
 tags:
   - ghost
   - mysql
+  - javascript
+  - cms
 ---
 
 # Ghost example

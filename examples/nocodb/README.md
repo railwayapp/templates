@@ -5,8 +5,9 @@ buttonSource: https://github.com/railwayapp-starters/nocodb/blob/main/README.md
 tags:
   - nocodb
   - postgresql
+  - javascript
 ---
 
-# Ackee example
+# NocoDB example
 
 This example is being maintained on the [railwayapp-starters](https://github.com/railwayapp-starters) organization and can be found [here](https://github.com/railwayapp-starters/nocodb).

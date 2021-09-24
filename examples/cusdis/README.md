@@ -3,8 +3,10 @@ title: Cusdis
 description: A self-hosted version of Cusdis using a PostgreSQL database
 buttonSource: https://github.com/railwayapp-starters/cusdis/blob/master/README.md
 tags:
-  - cusdis
   - postgresql
+  - prisma
+  - comments
+  - typescript
 ---
 
 # Cusdis example

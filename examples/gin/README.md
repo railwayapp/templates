@@ -3,7 +3,7 @@ title: Gin
 description: A Gin server
 tags:
   - gin
-  - go
+  - golang
 ---
 
 # Gin Example

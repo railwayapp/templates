@@ -2,7 +2,6 @@
 title: Deno
 description: A small Deno webserver
 tags:
-  - deno
   - typescript
 ---
 

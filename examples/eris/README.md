@@ -5,6 +5,7 @@ tags:
   - eris
   - javascript
   - bot
+  - discord
 ---
 
 # Eris Example

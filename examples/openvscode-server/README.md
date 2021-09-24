@@ -4,6 +4,7 @@ description: An OpenVSCode Server example.
 tags:
   - vscode
   - ide
+  - javascript
 ---
 
 # OpenVSCode Server Example

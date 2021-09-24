@@ -4,7 +4,7 @@ description: A NextJS app using Prisma with a PostgreSQL database
 tags:
   - next
   - prisma
-  - postgres
+  - postgresql
   - typescript
 ---
 

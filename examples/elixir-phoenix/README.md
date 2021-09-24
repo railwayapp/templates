@@ -4,7 +4,7 @@ description: A Phoenix application that connects to a PostgreSQL database
 tags:
   - elixir
   - phoenix
-  - postgres
+  - postgresql
 ---
 
 # Elixir Phoenix Example

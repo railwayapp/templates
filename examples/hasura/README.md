@@ -2,7 +2,7 @@
 title: Hasura
 description: A Hasura instance with a PostgreSQL database
 tags:
-  - postgres
+  - postgresql
   - hasura
 ---
 

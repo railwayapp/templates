@@ -6,6 +6,7 @@ tags:
   - coder
   - vscode
   - ide
+  - typescript
 ---
 
 # code-server Example

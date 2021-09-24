@@ -5,7 +5,8 @@ buttonSource: https://github.com/railwayapp-starters/umami/blob/master/README.md
 tags:
   - nextjs
   - umami
-  - postgres
+  - postgresql
+  - analytics
 ---
 
 # Umami example

@@ -3,9 +3,9 @@ title: Calendso
 description: A self-hosted version of Calendso using a PostgreSQL database
 buttonSource: https://github.com/calendso/calendso/blob/main/README.md
 tags:
-  - calendso
-  - postgres
+  - postgresql
   - prisma
+  - typescript
 ---
 
 # Calendso example

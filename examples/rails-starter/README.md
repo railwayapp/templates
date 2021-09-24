@@ -4,7 +4,7 @@ description: A Rails starter app using a PostgreSQL database
 tags:
   - ruby
   - rails
-  - postgres
+  - postgresql
 ---
 
 # Rails Starter Example

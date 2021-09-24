@@ -5,6 +5,7 @@ buttonSource: https://github.com/railwayapp-starters/n8n/blob/main/README.md
 tags:
   - n8n
   - postgresql
+  - javascript
 ---
 
 # n8n example

@@ -5,6 +5,7 @@ buttonSource: https://github.com/cdodev/metabase/blob/master/README.md
 tags:
   - metabase
   - postgresql
+  - javascript
 ---
 
 # Metabase example
