@@ -4,7 +4,7 @@ description: A Laravel app that connects to a PostgreSQL database
 tags:
   - php
   - laravel
-  - postgres
+  - postgresql
 ---
 
 # Laravel Starter Example

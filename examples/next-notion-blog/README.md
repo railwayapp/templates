@@ -4,7 +4,7 @@ description: A NextJS app using Notion as a CMS for a blog
 tags:
   - next
   - notion
-  - tailwind
+  - tailwindcss
   - typescript
 ---
 

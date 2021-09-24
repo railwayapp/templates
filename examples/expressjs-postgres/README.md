@@ -3,7 +3,7 @@ title: ExpressJS Postgres
 description: An ExpressJS server that connects to a PostgreSQL database
 tags:
   - express
-  - postgres
+  - postgresql
   - typescript
 ---
 

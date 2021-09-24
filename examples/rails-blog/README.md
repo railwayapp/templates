@@ -4,7 +4,7 @@ description: A Rails blog using a PostgreSQL database
 tags:
   - ruby
   - rails
-  - postgres
+  - postgresql
 ---
 
 # Rails Blog Example

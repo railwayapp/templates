@@ -3,8 +3,9 @@ title: Strapi
 description: A self-hosted version of Strapie using a Postgres database
 tags:
   - strapi
-  - postgres
+  - postgresql
   - cms
+  - javascript
 ---
 
 # Strapi example

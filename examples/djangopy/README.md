@@ -4,7 +4,7 @@ description: A Django application that connects to a PostgreSQL database
 tags:
   - python
   - django
-  - postgres
+  - postgresql
 ---
 
 # Django Example

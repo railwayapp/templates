@@ -6,7 +6,7 @@ tags:
   - rust
   - next
   - typescript
-  - tailwind
+  - tailwindcss
 ---
 
 # WebAssembly Rust

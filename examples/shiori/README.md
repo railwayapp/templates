@@ -3,9 +3,9 @@ title: Shiori
 description: A self-hosted bookmarks manager written in Go
 buttonSource: https://github.com/railwayapp-starters/shiori/blob/master/README.md
 tags:
-  - go
+  - golang
   - shiori
-  - postgres
+  - postgresql
 ---
 
 # Shiori example
