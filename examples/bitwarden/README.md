@@ -1,0 +1,26 @@
+---
+title: Bitwarden
+description: A self-hosted cross-platform password manager
+tags:
+  - passwords
+  - rust
+  - postgress
+---
+
+# Bitwarden
+
+This example implements [vaultwarden](https://github.com/dani-garcia/vaultwarden/wiki), a containered version of [Bitwarden](https://bitwarden.com) written in Rust.
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fvaultwarden&plugins=postgresql&envs=ADMIN_TOKEN%2CPORT$ADMIN_TOKENDesc=Administration+token&PORTDesc=The+port+of+the+server&PORTDefault=8080)
+
+## ✨ Features
+
+- End-to-End Encryption
+- Cross-Platform Applications
+- Multiple Users / Organizations with permissions
+- Offline Sync
+- Open Source
+
+## ⚠️ Limitations
+
+All changes made by the Admin Panel will be lost every time you re-deploy. Save critical configurations in your Variables.
