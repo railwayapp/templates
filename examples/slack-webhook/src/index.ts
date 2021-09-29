@@ -33,11 +33,7 @@ app.post("/webhook", async (req, res) => {
 
     res.sendStatus(response.status);
   } catch (error) {
-    console.error("error", error.response.data);
-    console.error("error", error.response.status);
-    console.error("error", error.response.headers);
-
-    res.sendStatus(error.response.status);
+    res.sendStatus(500);
   }
 });
 
