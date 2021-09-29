@@ -1,6 +1,6 @@
 ---
 title: Strapi
-description: A self-hosted version of Strapie using a Postgres database
+description: A self-hosted version of Strapi using a Postgres database
 tags:
   - strapi
   - postgresql
