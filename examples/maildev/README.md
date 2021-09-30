@@ -4,7 +4,7 @@ description: A simplest way to test your generated emails during development wit
 buttonSource: https://github.com/mittalyashu/railway-maildev/blob/main/readme.md
 tags:
   - maildev
-  - nodejs
+  - javascript
   - emails
 ---
 
