@@ -2,6 +2,7 @@
 title: OpenVSCode Server
 description: An OpenVSCode Server example.
 tags:
+  - gitpod
   - vscode
   - ide
   - javascript
