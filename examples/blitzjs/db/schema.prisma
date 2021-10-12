@@ -2,7 +2,7 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 datasource db {
-  provider = "postgresql"
+  provider = "postgres"
   url      = env("DATABASE_URL")
 }
 
@@ -40,10 +40,14 @@ model Session {
   userId Int?
 }
 
+enum TokenType {
+  RESET_PASSWORD
+}
+
 model Token {
-  id          Int       @id @default(autoincrement())
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
+  id          Int      @id @default(autoincrement())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
   hashedToken String
   type        TokenType
   expiresAt   DateTime
@@ -53,8 +57,4 @@ model Token {
   userId Int
 
   @@unique([hashedToken, type])
-}
-
-enum TokenType {
-  RESET_PASSWORD
 }

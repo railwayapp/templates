@@ -11,7 +11,7 @@ CREATE TABLE "User" (
     "hashedPassword" TEXT,
     "role" TEXT NOT NULL DEFAULT E'USER',
 
-    PRIMARY KEY ("id")
+    CONSTRAINT "User_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
@@ -27,7 +27,7 @@ CREATE TABLE "Session" (
     "privateData" TEXT,
     "userId" INTEGER,
 
-    PRIMARY KEY ("id")
+    CONSTRAINT "Session_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
@@ -41,20 +41,20 @@ CREATE TABLE "Token" (
     "sentTo" TEXT NOT NULL,
     "userId" INTEGER NOT NULL,
 
-    PRIMARY KEY ("id")
+    CONSTRAINT "Token_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "User.email_unique" ON "User"("email");
+CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Session.handle_unique" ON "Session"("handle");
+CREATE UNIQUE INDEX "Session_handle_key" ON "Session"("handle");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Token.hashedToken_type_unique" ON "Token"("hashedToken", "type");
+CREATE UNIQUE INDEX "Token_hashedToken_type_key" ON "Token"("hashedToken", "type");
 
 -- AddForeignKey
-ALTER TABLE "Session" ADD FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+ALTER TABLE "Session" ADD CONSTRAINT "Session_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "Token" ADD FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE "Token" ADD CONSTRAINT "Token_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE RESTRICT ON UPDATE CASCADE;

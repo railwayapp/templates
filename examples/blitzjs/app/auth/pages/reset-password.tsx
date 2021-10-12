@@ -1,4 +1,4 @@
-import { BlitzPage, useRouterQuery, Link, useMutation } from "blitz"
+import { BlitzPage, useRouterQuery, Link, useMutation, Routes } from "blitz"
 import Layout from "app/core/layouts/Layout"
 import { LabeledTextField } from "app/core/components/LabeledTextField"
 import { Form, FORM_ERROR } from "app/core/components/Form"
@@ -17,18 +17,18 @@ const ResetPasswordPage: BlitzPage = () => {
         <div>
           <h2>Password Reset Successfully</h2>
           <p>
-            Go to the <Link href="/">homepage</Link>
+            Go to the <Link href={Routes.Home()}>homepage</Link>
           </p>
         </div>
       ) : (
         <Form
           submitText="Reset Password"
-          schema={ResetPassword.omit({ token: true })}
-          initialValues={{ password: "", passwordConfirmation: "" }}
+          schema={ResetPassword}
+          initialValues={{ password: "", passwordConfirmation: "", token: query.token as string }}
           onSubmit={async (values) => {
             try {
-              await resetPasswordMutation({ ...values, token: query.token as string })
-            } catch (error) {
+              await resetPasswordMutation(values)
+            } catch (error: any) {
               if (error.name === "ResetPasswordError") {
                 return {
                   [FORM_ERROR]: error.message,

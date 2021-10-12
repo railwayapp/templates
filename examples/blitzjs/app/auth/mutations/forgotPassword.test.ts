@@ -9,7 +9,7 @@ beforeEach(async () => {
 
 const generatedToken = "plain-token"
 jest.mock("blitz", () => ({
-  ...jest.requireActual("blitz")!,
+  ...jest.requireActual<Record<string, unknown>>("blitz")!,
   generateToken: () => generatedToken,
 }))
 jest.mock("preview-email", () => jest.fn())
@@ -42,6 +42,8 @@ describe("forgotPassword mutation", () => {
 
     const tokens = await db.token.findMany({ where: { userId: user.id } })
     const token = tokens[0]
+    if (!user.tokens[0]) throw new Error("Missing user token")
+    if (!token) throw new Error("Missing token")
 
     // delete's existing tokens
     expect(tokens.length).toBe(1)

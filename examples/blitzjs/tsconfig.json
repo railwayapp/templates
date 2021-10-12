@@ -9,6 +9,7 @@
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
+    "noUncheckedIndexedAccess": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
@@ -19,5 +20,5 @@
     "tsBuildInfoFile": ".tsbuildinfo"
   },
   "exclude": ["node_modules", "**/*.e2e.ts", "cypress"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["blitz-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
