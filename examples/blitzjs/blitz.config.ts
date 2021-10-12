@@ -3,8 +3,8 @@ import { BlitzConfig, sessionMiddleware, simpleRolesIsAuthorized } from "blitz"
 const config: BlitzConfig = {
   middleware: [
     sessionMiddleware({
+      cookiePrefix: "blitzjs",
       isAuthorized: simpleRolesIsAuthorized,
-      cookiePrefix: "blitz", // Use your app name here
     }),
   ],
   /* Uncomment this to customize the webpack config
@@ -16,5 +16,4 @@ const config: BlitzConfig = {
   },
   */
 }
-
 module.exports = config

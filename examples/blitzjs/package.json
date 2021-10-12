@@ -3,17 +3,13 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "blitz dev",
+    "build": "blitz build",
     "start": "blitz start --port ${PORT-3000}",
     "studio": "blitz prisma studio",
-    "build": "yarn migrate:deploy && blitz build",
-    "migrate:dev": "blitz prisma migrate dev --preview-feature",
-    "migrate:deploy": "blitz prisma migrate deploy --preview-feature",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "test": "jest",
-    "test:watch": "jest --watch"
-  },
-  "engines": {
-    "node": "14.15.0"
+    "test:watch": "jest --watch",
+    "prepare": "husky install"
   },
   "prisma": {
     "schema": "db/schema.prisma"
@@ -28,27 +24,26 @@
     ]
   },
   "dependencies": {
-    "prisma": "~2.17",
-    "@prisma/client": "~2.17",
-    "blitz": "0.38.5",
-    "react": "alpha",
+    "@prisma/client": "3.2.1",
+    "blitz": "0.41.0",
     "react-dom": "alpha",
-    "react-error-boundary": "3.1.0",
-    "typescript": "4.1.5",
-    "zod": "1.11.11",
-    "final-form": "4.20.1",
-    "react-final-form": "6.5.2"
+    "react": "alpha",
+    "zod": "3.9.8",
+    "final-form": "4.20.4",
+    "react-final-form": "6.5.7"
   },
   "devDependencies": {
-    "@types/react": "17.0.2",
-    "@types/preview-email": "2.0.0",
-    "eslint": "7.20.0",
-    "husky": "4.3.8",
+    "@types/preview-email": "2.0.1",
+    "@types/react": "17.0.28",
+    "eslint": "7.32.0",
+    "husky": "6.0.0",
     "lint-staged": "10.5.4",
-    "prettier": "2.2.1",
-    "pretty-quick": "3.1.0",
-    "preview-email": "3.0.3",
-    "prettier-plugin-prisma": "0.4.0"
+    "prettier-plugin-prisma": "0.15.0",
+    "prettier": "2.4.1",
+    "pretty-quick": "3.1.1",
+    "preview-email": "3.0.5",
+    "prisma": "3.2.1",
+    "typescript": "~4.3"
   },
   "private": true
 }
