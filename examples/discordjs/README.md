@@ -25,4 +25,5 @@ This example starts a Discord bot using [discord.js](https://discord.js.org/#/).
 
 ## 📝 Notes
 
-The server started launches a Discord bot with a couple of basic commands. The code is located at `src/index.js`.
+- Slash commands might take up to 1 hour to be registered.
+- To make a new command just add a file to the `Commands` folder, you can use the `Template.js` file for a template, or look at the [discord.js guide](https://discordjs.guide/)
