@@ -1,8 +1,8 @@
 {
-  "name": "discordjs_starter",
-  "version": "1.0.2",
+  "name": "discordjs",
+  "version": "1.0.0",
   "main": "src/index.js",
-  "author": "Korab Arifi",
+  "author": "Jake Runzer",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon .",
