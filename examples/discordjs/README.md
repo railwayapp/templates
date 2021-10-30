@@ -26,4 +26,4 @@ This example starts a Discord bot using [discord.js](https://discord.js.org/#/).
 ## 📝 Notes
 
 - Slash commands might take up to 1 hour to be registered.
-- To make a new command just add a file to the `Commands` folder, you can use the `Template.js` file for a template, or look at the [discord.js guide](https://discordjs.guide/)
+- To create a new command, just create a file in the `Commands` directory. You can take a look at the `Template.js` file for an example of what commands should look like. For any additional help see the [discord.js guide](https://discordjs.guide).
