@@ -4,7 +4,7 @@ const fs = require("fs"); // Define fs (file system).
 const { Client, Intents, Collection } = require("discord.js"); // Define Client, Intents, and Collection.
 const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
-}); // Connect our discord bot.
+}); // Connect to our discord bot.
 const commands = new Collection(); // Where the bot (slash) commands will be stored.
 const commandarray = []; // Array to store commands for sending to the REST API.
 const token = process.env.DISCORD_TOKEN; // Token from Railway Env Variable.
