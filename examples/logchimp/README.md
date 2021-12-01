@@ -4,6 +4,7 @@ description: Track your customers feedback to build better products with LogChim
 buttonSource: https://github.com/logchimp/deploy-buttons
 tags:
   - postgresql
+  - javascript
   - feedback
   - marketing
   - product-feedback
