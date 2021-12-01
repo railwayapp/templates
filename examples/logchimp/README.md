@@ -1,7 +1,7 @@
 ---
 title: LogChimp
 description: Track your customers feedback to build better products with LogChimp
-buttonSource: https://github.com/logchimp/deploy-buttons
+buttonSource: https://github.com/logchimp/deploy-buttons/blob/main/readme.md
 tags:
   - postgresql
   - javascript
