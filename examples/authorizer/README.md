@@ -12,4 +12,4 @@ tags:
 
 # Authorizer example
 
-This starter is part of the Railway open-source kickback program and is being maintained by the team behind authorizer. You can find the source code for deployment button [here](https://github.com/authorizerdev/authorizer-railway). Also, you can find source code for the project [here](https://github.com/authorizerdev/authorizer).
+This starter is maintained by the team behind authorizer. You can find the source code for deployment button [here](https://github.com/authorizerdev/authorizer-railway). Also, you can find source code for the project [here](https://github.com/authorizerdev/authorizer).
