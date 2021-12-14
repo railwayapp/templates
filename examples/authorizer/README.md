@@ -1,6 +1,6 @@
 ---
 title: Authorizer
-description: A production ready self-hosted version of [Authorizer](https://authorizer.dev) using a PostgreSQL database and Redis
+description: A production ready self-hosted version of Authorizer using a PostgreSQL database and Redis
 buttonSource: https://github.com/authorizerdev/authorizer-railway/blob/main/README.md
 tags:
   - authorizer
