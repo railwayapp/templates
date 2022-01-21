@@ -1,9 +1,6 @@
-from dotenv import load_dotenv
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 import os
-
-load_dotenv()
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text(f'Hello {update.effective_user.first_name}\nI am a sample Telegram bot made with python-telegram-bot!')
