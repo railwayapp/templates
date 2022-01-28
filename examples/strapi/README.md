@@ -10,9 +10,9 @@ tags:
 
 # Strapi example
 
-This example deploys self-hosted version of [Strapi](https://strapi.io/). Internally it uses a MySQL database to store the data.
+This example deploys self-hosted version of [Strapi](https://strapi.io/). Internally it uses a PostgreSQL database to store the data.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fstrapi&plugins=postgresql&envs=ADMIN_JWT_SECRET%2CCLOUDINARY_NAME%2CCLOUDINARY_KEY%2CCLOUDINARY_SECRET&optionalEnvs=CLOUDINARY_NAME%2CCLOUDINARY_KEY%2CCLOUDINARY_SECRET&ADMIN_JWT_SECRETDesc=Secret+used+to+encode+JWT+tokens)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fstarters%2Ftree%2Fmaster%2Fexamples%2Fstrapi&plugins=postgresql&envs=ADMIN_JWT_SECRET%2CCLOUDINARY_NAME%2CCLOUDINARY_KEY%2CCLOUDINARY_SECRET%2CJWT_SECRET%2CNODE_ENV&optionalEnvs=ADMIN_JWT_SECRET%2CCLOUDINARY_NAME%2CCLOUDINARY_KEY%2CCLOUDINARY_SECRET%2CJWT_SECRET&ADMIN_JWT_SECRETDesc=Secret+used+to+encode+Admin+JWT+tokens&JWT_SECRETDesc=Secret+used+to+encode+JWT+tokens&NODE_ENVDefault=production)
 
 ## ✨ Features
 
