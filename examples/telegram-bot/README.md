@@ -27,4 +27,4 @@ This example starts a [Telegram](https://telegram.org/) bot on an [ExpressJS](ht
 
 ## 📝 Notes
 
-The server started launches a Telegram bot with a couple of basic commands. The code is located at `src/index.js`.
+The server started launches a Telegram bot with a couple of basic commands. The code is located at `src/index.ts`.
