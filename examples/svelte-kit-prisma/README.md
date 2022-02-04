@@ -11,7 +11,7 @@ tags:
 
 This example is a simple [SvelteKit](https://kit.svelte.dev/) app with prisma and mysql plugin.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fsvelte-kit-prisma&plugins=mysql&envs=DATABASE_URL&DATABASE_URLDesc=Database+URL+%28from+mysql+plugin+or+any+other+DB%29&DATABASE_URLDefault=mysql%3A%2F%2Fjohndoe%3Arandompassword%40localhost%3A5432%2Fmydb)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fstarters%2Ftree%2Fmaster%2Fexamples%2Fsvelte-kit-prisma&plugins=mysql&envs=DATABASE_URL&DATABASE_URLDesc=Database+URL+%28from+mysql+plugin+or+any+other+DB%29&DATABASE_URLDefault=mysql%3A%2F%2Fjohndoe%3Arandompassword%40localhost%3A5432%2Fmydb)
 
 ## ✨ Features
 
