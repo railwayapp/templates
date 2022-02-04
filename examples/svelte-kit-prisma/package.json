@@ -1,0 +1,31 @@
+{
+  "name": "svelte-kit",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "start": "svelte-kit preview --host --port ${PORT-3000}",
+    "lint": "prettier --check . && eslint --ignore-path .gitignore .",
+    "format": "prettier --write .",
+    "migrate": "prisma migrate deploy && prisma generate",
+    "migrate:dev": "prisma migrate dev && prisma generate",
+    "postinstall": "prisma generate"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "prettier": "~2.2.1",
+    "prettier-plugin-svelte": "^2.2.0",
+    "prisma": "^3.9.1",
+    "@prisma/client": "latest",
+    "svelte": "^3.34.0",
+    "svelte-preprocess": "^4.0.0",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0"
+  },
+  "type": "module"
+}
