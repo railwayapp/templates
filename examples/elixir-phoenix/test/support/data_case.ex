@@ -1,4 +1,4 @@
-defmodule RailwayPhoenix.DataCase do
+defmodule Railwayphoenix.DataCase do
   @moduledoc """
   This module defines the setup for tests requiring
   access to the application's data layer.
@@ -10,7 +10,7 @@ defmodule RailwayPhoenix.DataCase do
   we enable the SQL sandbox, so changes done to the database
   are reverted at the end of every test. If you are using
   PostgreSQL, you can even run database tests asynchronously
-  by setting `use RailwayPhoenix.DataCase, async: true`, although
+  by setting `use Railwayphoenix.DataCase, async: true`, although
   this option is not recommended for other databases.
   """
 
@@ -18,22 +18,18 @@ defmodule RailwayPhoenix.DataCase do
 
   using do
     quote do
-      alias RailwayPhoenix.Repo
+      alias Railwayphoenix.Repo
 
       import Ecto
       import Ecto.Changeset
       import Ecto.Query
-      import RailwayPhoenix.DataCase
+      import Railwayphoenix.DataCase
     end
   end
 
   setup tags do
-    :ok = Ecto.Adapters.SQL.Sandbox.checkout(RailwayPhoenix.Repo)
-
-    unless tags[:async] do
-      Ecto.Adapters.SQL.Sandbox.mode(RailwayPhoenix.Repo, {:shared, self()})
-    end
-
+    pid = Ecto.Adapters.SQL.Sandbox.start_owner!(Railwayphoenix.Repo, shared: not tags[:async])
+    on_exit(fn -> Ecto.Adapters.SQL.Sandbox.stop_owner(pid) end)
     :ok
   end
 
