@@ -1,4 +1,4 @@
-use Mix.Config
+import Config
 
 database_url =
   System.get_env("DATABASE_URL") ||
@@ -8,7 +8,7 @@ database_url =
     """
 
 # Configure your database
-config :railway_phoenix, RailwayPhoenix.Repo,
+config :railwayphoenix, Railwayphoenix.Repo,
   url: database_url,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
@@ -18,20 +18,18 @@ config :railway_phoenix, RailwayPhoenix.Repo,
 #
 # The watchers configuration can be used to run external
 # watchers to your application. For example, we use it
-# with webpack to recompile .js and .css sources.
-config :railway_phoenix, RailwayPhoenixWeb.Endpoint,
-  http: [port: String.to_integer(System.get_env("PORT") || "4000")],
-  debug_errors: true,
-  code_reloader: true,
+# with esbuild to bundle .js and .css sources.
+config :railwayphoenix, RailwayphoenixWeb.Endpoint,
+  # Binding to loopback ipv4 address prevents access from other machines.
+  # Change to `ip: {0, 0, 0, 0}` to allow access from other machines.
+  http: [ip: {127, 0, 0, 1}, port: 4000],
   check_origin: false,
+  code_reloader: true,
+  debug_errors: true,
+  secret_key_base: "VkM/RS85P6eyHLhcTuWX+tEf+lrhOKzXHHqVaxHKw15EzysSZ9Vk3zxVqFW0UWJ3",
   watchers: [
-    node: [
-      "node_modules/webpack/bin/webpack.js",
-      "--mode",
-      "development",
-      "--watch-stdin",
-      cd: Path.expand("../assets", __DIR__)
-    ]
+    # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
+    esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
   ]
 
 # ## SSL Support
@@ -59,13 +57,13 @@ config :railway_phoenix, RailwayPhoenixWeb.Endpoint,
 # different ports.
 
 # Watch static and templates for browser reloading.
-config :railway_phoenix, RailwayPhoenixWeb.Endpoint,
+config :railwayphoenix, RailwayphoenixWeb.Endpoint,
   live_reload: [
     patterns: [
       ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
-      ~r"lib/railway_phoenix_web/(live|views)/.*(ex)$",
-      ~r"lib/railway_phoenix_web/templates/.*(eex)$"
+      ~r"lib/railwayphoenix_web/(live|views)/.*(ex)$",
+      ~r"lib/railwayphoenix_web/templates/.*(eex)$"
     ]
   ]
 
