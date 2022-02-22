@@ -27,6 +27,16 @@ DEBUG = True
 if 'SECRET_KEY' in os.environ:
     SECRET_KEY = os.environ['SECRET_KEY']
     DEBUG = False
+else:
+    # To work locally, you should create a .env
+    # and put your env variables there.
+    from dotenv import load_dotenv
+    load_dotenv()
+    os.environ['PGDATABASE'] = os.getenv('PGDATABASE')
+    os.environ['PGUSER'] = os.getenv('PGUSER')
+    os.environ['PGPASSWORD'] = os.getenv('PGPASSWORD')
+    os.environ['PGHOST'] = os.getenv('PGHOST')
+    os.environ['PGPORT'] = os.getenv('PGPORT')
 
 ALLOWED_HOSTS = ["*"]
 
