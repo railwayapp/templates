@@ -6,7 +6,7 @@ tags:
   - vpn
 ---
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fes183923%2Fstarters%2Ftree%2Fmaster%2Fexamples%2Ftailscale-vpn&envs=TAILSCALE_AUTHKEY&referralCode=erics)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailway%2Fstarters%2Ftree%2Fmaster%2Fexamples%2Ftailscale-vpn&envs=TAILSCALE_AUTHKEY&referralCode=erics)
 
 # Tailscale VPN
 
