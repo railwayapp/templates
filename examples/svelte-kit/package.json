@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
-    "start": "svelte-kit preview --host --port ${PORT-3000}",
+    "start": "node out/index",
+    "start:dev": "svelte-kit preview --host --port ${PORT-3000}",
     "lint": "prettier --check . && eslint --ignore-path .gitignore .",
     "format": "prettier --write ."
   },
@@ -22,5 +23,8 @@
     "tslib": "^2.0.0",
     "typescript": "^4.0.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@sveltejs/adapter-node": "^1.0.0-next.69"
+  }
 }
