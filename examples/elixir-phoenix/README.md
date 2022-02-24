@@ -12,7 +12,7 @@ tags:
 This example is a [Phoenix](https://www.phoenixframework.org/) application that
 connects to a Railway Postgres database.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Felixir-phoenix&plugins=postgresql&envs=SECRET_KEY_BASE%2CPOOL_SIZE%2CDATABASE_URL&DATABASE_URLDesc=Connection+string+for+DB&POOL_SIZEDefault=2&DATABASE_URLDefault=postgres%3A%2F%2F%24%7B%7B+PGUSER+%7D%7D%3A%24%7B%7B+PGPASSWORD+%7D%7D%40%24%7B%7B+PGHOST+%7D%7D%3A%24%7B%7B+PGPORT+%7D%7D%2F%24%7B%7B+PGDATABASE+%7D%7D)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Felixir-phoenix&plugins=postgresql&envs=SECRET_KEY_BASE%2CPOOL_SIZE%2CDATABASE_URL&DATABASE_URLDesc=Connection+string+for+DB&POOL_SIZEDefault=2&DATABASE_URLDefault=postgres%3A%2F%2F%24%7B%7B+PGUSER+%7D%7D%3A%24%7B%7B+PGPASSWORD+%7D%7D%40%24%7B%7B+PGHOST+%7D%7D%3A%24%7B%7B+PGPORT+%7D%7D%2F%24%7B%7B+PGDATABASE+%7D%7D)
 
 ## ✨ Features
 
