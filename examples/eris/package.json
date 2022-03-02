@@ -4,10 +4,13 @@
   "description": "A discord bot made in Eris.",
   "main": "src/index.js",
   "repository": "https://github.com/railwayapp/starters",
+  "scripts": {
+    "start": "node ."
+  },
   "author": "Yoshida Tomio",
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "eris": "^0.15.1"
+    "eris": "^0.16.1"
   }
 }
