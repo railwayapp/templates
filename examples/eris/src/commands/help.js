@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fs = require("node:fs");
 module.exports = {
   name: "help",
   description: "Shows help for all commands",
