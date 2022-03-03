@@ -4,6 +4,6 @@ module.exports = {
   async execute(message, args) {
     const msg = await message.channel.createMessage("Pinging...");
     const ping = msg.timestamp - message.timestamp;
-    msg.edit("🏓 Pong! `" + ping + "ms`");
+    msg.edit(`🏓 Pong! \`${ping} ms\``);
   },
 };
