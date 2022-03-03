@@ -1,5 +1,5 @@
 const Eris = require("eris");
-const fs = require("fs");
+const fs = require("node:fs");
 const bot = Eris(`Bot ${process.env.DISCORD_TOKEN}`);
 const prefix = process.env.PREFIX || "!";
 const commands = fs
