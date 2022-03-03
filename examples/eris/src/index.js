@@ -6,9 +6,7 @@ const commands = fs
   .readdirSync(__dirname + "/commands")
   .filter(file => file.endsWith(".js"));
 
-bot.on("ready", () =>
-  console.log(`Logged in as ${bot.user.username}#${bot.user.discriminator}`),
-);
+bot.on("ready", () => console.log(`Logged in as ${bot.user.username}#${bot.user.discriminator}`));
 
 bot.on("messageCreate", async message => {
   if (!message.content.startsWith(prefix)) return;
