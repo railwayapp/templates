@@ -13,7 +13,7 @@ bot.on("messageCreate", async message => {
   if (message.author.bot) return;
   const args = message.content.slice(prefix.length).split(/ +/);
   const command = args.shift().toLowerCase();
-  if (!commands.includes(command + ".js")) return;
+  if (!commands.includes(`${command}.js`)) return;
   const cmd = require(`./commands/${command}.js`);
   cmd.execute(message, args);
 });
