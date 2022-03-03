@@ -25,6 +25,4 @@ bot.editStatus("online", {
 
 bot.connect();
 
-process.on("unhandledRejection" || "uncaughtException", err => {
-  console.error(err);
-});
+process.on("unhandledRejection" || "uncaughtException", console.error);
