@@ -3,7 +3,7 @@ title: Python Telegram Bot
 description: A Telegram Bot Written in Python
 tags:
   - python
-  - python-discord-bot
+  - python-telegram-bot
   - telegram
 ---
 
@@ -20,8 +20,8 @@ This example starts a Telegram bot using [python-telegram-bot](https://www.pytho
 
 ## 💁‍♀️ How to use
 
-- Install packages using `pip install -r requirements.txt`
-- Start the bot using `python bot.py`
+- Install packages using `pip3 install -r requirements.txt`
+- Start the bot using `python3 bot.py`
 
 ## 📝 Notes
 
