@@ -1,6 +1,6 @@
 # created by GrimZZZ-404 & Milo123459 & aleksrutins
-ARG RELEASE_TAG=latest PORT TOKEN
-FROM gitpod/openvscode-server:${RELEASE_TAG}
+ARG PORT TOKEN
+FROM gitpod/openvscode-server:1.65.2
 USER root
 RUN apt-get install -y openssl
 USER openvscode-server
