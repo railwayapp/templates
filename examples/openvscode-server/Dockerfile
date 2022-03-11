@@ -1,7 +1,11 @@
 # created by GrimZZZ-404 & Milo123459 & aleksrutins
+ARG RELEASE_TAG=latest PORT TOKEN
 FROM gitpod/openvscode-server:${RELEASE_TAG}
-ARG RELEASE_TAG=latest PORT
+USER root
 RUN apt-get install -y openssl
-RUN GEN_TOKEN=$(openssl rand -hex 32)
-ARG TOKEN=$GEN_TOKEN
-ENTRYPOINT [ "/bin/sh", "-c", "exec ${OPENVSCODE_SERVER_ROOT}/bin/openvscode-server --port ${PORT} --connection-token ${TOKEN}", "--host", "0.0.0.0",  "--" ]
+USER openvscode-server
+ENV OPENVSCODE_SERVER_ROOT=${OPENVSCODE_SERVER_ROOT}
+ENV TOKEN=${TOKEN}
+ENV PORT=${PORT}
+ADD start.sh /_railway/start.sh
+ENTRYPOINT [ "/bin/sh", "/_railway/start.sh" ]
