@@ -1,1 +1,1 @@
-web: cp .env.example .env && php artisan key:generate && php artisan serve --host=0.0.0.0 --port=$PORT
+web: cp .env.example .env && php artisan key:generate && heroku-php-apache2
