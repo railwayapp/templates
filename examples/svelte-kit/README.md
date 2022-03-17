@@ -8,9 +8,9 @@ tags:
 
 # SvelteKit Example
 
-This examples is a simple [SvelteKit](https://kit.svelte.dev/) app.
+This example is a simple [SvelteKit](https://kit.svelte.dev/) app.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fsvelte-kit)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/svelte-kit)
 
 ## ✨ Features
 
