@@ -5,6 +5,6 @@ module.exports = {
     .setName("ping")
     .setDescription("Get the bots latency!"),
   execute: async (interaction, client) => {
-    return interaction.reply(`Pong \`${client.ws.ping}ms\` 🏓`);
+    return interaction.reply({ content: `Pong \`${client.ws.ping}ms\` 🏓` });
   },
 };
