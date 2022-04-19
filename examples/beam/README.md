@@ -8,6 +8,6 @@ tags:
   - typescript
 ---
 
-# Calendso example
+# Beam example
 
 To provide the latest version of Beam, we deploy the code maintained by the [PlanetScale](https://planetscale.com/) team. You can find the source code [here](https://github.com/planetscale/beam).
