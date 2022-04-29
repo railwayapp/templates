@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "crate": "0.0.1",
-    "next": "10.0.9",
+    "next": "12.1.0",
     "next-seo": "^4.23.0",
     "next-themes": "^0.0.14",
     "react": "17.0.2",
