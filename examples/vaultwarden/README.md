@@ -1,11 +1,11 @@
 ---
-title: Bitwarden
+title: Vaultwarden
 description: A self-hosted cross-platform password manager
 buttonSource: https://github.com/railwayapp-starters/vaultwarden/blob/main/README.md
 tags:
   - passwords
   - rust
-  - postgress
+  - postgres
 ---
 
 # Vaultwarden example
