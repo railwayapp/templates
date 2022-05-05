@@ -8,6 +8,6 @@ tags:
   - typescript
 ---
 
-# Calendso example
+# Quirrel example
 
 To provide the latest version of Quirrel, we deploy the code maintained by the [Quirrel](https://quirrel.dev/) team. You can find the source code [here](https://github.com/quirrel-dev/quirrel).
