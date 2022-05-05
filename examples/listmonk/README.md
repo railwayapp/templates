@@ -1,12 +1,3 @@
----
-title: Listmonk
-description: Send e-mail campaigns from a powerful dashboard.
-tags:
-  - postgres
-  - docker
-  - listmonk
----
-
 # Listmonk example
 This example is being maintained on the [railwayapp-starters](https://github.com/railwayapp-starters) organization and can be found [here](https://github.com/railwayapp-starters/listmonk).
 
