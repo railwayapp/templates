@@ -10,3 +10,16 @@ tags:
 # Browserless example
 
 This example is being maintained on the [railwayapp-starters](https://github.com/railwayapp-starters) organization and can be found [here](https://github.com/railwayapp-starters/browserless).
+
+## ✨ Features
+
+- Browserless
+
+## 💁‍♀️ How to use
+
+- Click the railway button 👆
+- Deploy
+
+## 📝 Notes
+- Source repo: https://github.com/browserless/chrome
+- Docs: https://docs.browserless.io/

@@ -8,9 +8,9 @@ tags:
 
 # Hasura example
 
-This example sets up a [Hasura](https://hasura.io/opensource/) instance with a [PostgreSQL](https://www.postgresql.org/) database.
+This example is being maintained on the [railwayapp-starters](https://github.com/railwayapp-starters) organization and can be found [here](https://github.com/railwayapp-starters/hasura).
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fhasura&plugins=postgresql&envs=HASURA_GRAPHQL_ADMIN_SECRET&HASURA_GRAPHQL_ADMIN_SECRETDesc=To+secure+your+GraphQL+endpoint+and+the+Hasura+console.)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/hasura)
 
 ## ✨ Features
 
