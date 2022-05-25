@@ -25,6 +25,5 @@ This example starts a Discord bot using [discord.js](https://discord.js.org/#/).
 
 ## 📝 Notes
 
-- Upon the first run of the starter, it can take up to an hour for your slash commands to be visible in the Discord Client.
 - To create a new command, just create a file in the `Commands` directory. You can take a look at the `Template.js` file for an example of what commands should look like. For any additional help see the [discord.js guide](https://discordjs.guide).
 - If you need any additional help with this, join our [Discord server](https://discord.gg/railway) and create a thread in the project help channel.
