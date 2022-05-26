@@ -1,7 +1,7 @@
 ---
 title: Calendso
 description: Django 4.0 with a Postgres Backing
-buttonSource: https://github.com/railwayapp-starters/django/README.md
+buttonSource: https://github.com/railwayapp-starters/django/blob/main/README.md
 tags:
   - postgresql
   - django
