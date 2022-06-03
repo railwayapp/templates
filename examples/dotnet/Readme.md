@@ -12,7 +12,7 @@ This example is a small [ASP.NET Core](https://dot.net) web API. This uses a `Do
 
 > Important: Be sure to add the `$PORT` environment variable of 80 to your Railway project.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fdotnet)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fdotnet&envs=PORT=80&PORTDesc=Docker+Listening+Port)
 
 ## ✨ Features
 
