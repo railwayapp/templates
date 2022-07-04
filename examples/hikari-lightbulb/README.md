@@ -4,7 +4,7 @@ description: A Discord bot written in Python
 tags:
   - python
   - hikari
-  - hikari-lightbulb
+  - lightbulb
 ---
 
 # Hikari-lightbulb Example
@@ -17,7 +17,7 @@ This example starts a Discord bot using [Hikari](https://www.hikari-py.dev) and 
 
 - Python
 - Hikari
-- Hikari-lightbulb
+- Lightbulb
 
 ## 💁‍♀️ How to use
 
