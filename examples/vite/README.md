@@ -1,20 +1,18 @@
 ---
-title: Vite Preact
-description: Example Vite app that is configured with Preact
+title: Vite
+description: Example Vite app that is configured to just work out of the box.
 tags:
   - vite
-  - preact
 ---
 
-# Vite + Preact
+# Vite
 This example utilises vite for static site generation
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/acjIJV?referralCode=OH27A5)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/B0Cef9?referralCode=OH27A5)
 
 ## ✨ Features
 
 - Vite
-- Preact
 
 ## 💁‍♀️ How to use
 

@@ -1,5 +1,5 @@
 ---
-title: Vite Lit (TS)
+title: Vite (TS)
 description: Example Vite app that is configured with Typescipt
 tags:
   - vite
@@ -9,7 +9,7 @@ tags:
 # Vite + Typescript Example
 This example utilises vite for static site generation
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fvite-typescript)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Mm5EWG?referralCode=OH27A5)
 
 ## ✨ Features
 
