@@ -1,24 +1,12 @@
 ---
-title: Sinatra
-description: A Sinatra webserver
+title: Ruby Sinatra
+description: A lightweight Ruby Sinatra webserver
+buttonSource: https://github.com/railwayapp-starters/ruby-sinatra/blob/main/README.md
 tags:
   - ruby
   - sinatra
 ---
 
-# Sinatra Example
+# Ruby Sinatra Example
 
-This example is a simple [Sinatra](http://sinatrarb.com) webserver.
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fsinatra)
-
-## ✨ Features
-
-- Ruby
-- Sinatra
-
-## 💁‍♀️ How to use
-
-- Connect to your Railway project `railway link`
-- Install Ruby requirements `bundle install`
-- Run Sinatra `railway run ruby app.rb`
+This example is being maintained on the [railwayapp-starters](https://github.com/railwayapp-starters) organization and can be found [here](https://github.com/railwayapp-starters/ruby-sinatra).
