@@ -1,13 +1,3 @@
----
-title: Ackee
-description: A self-hosted version of Ackee using a MongoDB database
-buttonSource: https://github.com/railwayapp-starters/Ackee/blob/master/README.md
-tags:
-  - mongodb
-  - javascript
-  - analytics
----
-
 # Ackee example
 
-This example has been moved to the [railwayapp-starters](https://github.com/railwayapp-starters) organization and can be found [here](https://github.com/railwayapp-starters/Ackee).
+To provide the latest version of Ackee, we deploy the code maintained by the [Ackee](https://ackee.electerious.com/) team. You can find the source code [here](https://github.com/electerious/Ackee).
