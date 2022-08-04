@@ -5,7 +5,7 @@ import { Bot } from "grammy";
   that should be configured on Railway
 */
 if (!process.env.TELEGRAM_BOT_TOKEN) throw new Error("Please add a bot token");
-const bot = new Bot(process.env.TELEGRAM_BOT_TOKEN ?? "TOKEN");
+const bot = new Bot(process.env.TELEGRAM_BOT_TOKEN);
 
 // You can now register listeners on your bot object `bot`.
 // grammY will call the listeners when users send messages to your bot.
