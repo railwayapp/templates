@@ -1,10 +1,20 @@
+//Slash Command Template
 const { SlashCommandBuilder } = require("@discordjs/builders");
 
 module.exports = {
-  data: new SlashCommandBuilder()
-    .setName("name")
-    .setDescription("My cool command does this!"),
+  name: "name",
+  description: "My cool command does this!",
   execute: async (interaction, client) => {
     return interaction.reply("Hey! you used my command!");
+  },
+};
+
+// Message Command Template
+
+module.exports = {
+  name: "name",
+  description: "My cool command does this!",
+  execute: async (client, message, args) => {
+    return message.channel.send("Hey! you used my command!");
   },
 };
