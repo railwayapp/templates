@@ -1,5 +1,4 @@
 //Slash Command Template
-const { SlashCommandBuilder } = require("@discordjs/builders");
 
 module.exports = {
   name: "name",

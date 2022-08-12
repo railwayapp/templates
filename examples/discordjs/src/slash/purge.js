@@ -12,17 +12,17 @@ module.exports = {
       max_value: 100,
     },
   ],
-  run: async (interaction) => {
+  run: async interaction => {
     if (!interaction.member.permissions.has("MANAGE_MESSAGES"))
       return interaction.reply({
         content: "**You are missing the *Manage Messages* permission!**",
         ephemeral: true,
-  });
+      });
     if (!interaction.guild.me.permissions.has("MANAGE_MESSAGES"))
-    return interaction.reply({
-      content: "**I are missing the *Manage Messages* permission!**",
-      ephemeral: true,
-});
+      return interaction.reply({
+        content: "**I are missing the *Manage Messages* permission!**",
+        ephemeral: true,
+      });
 
     const amount = interaction.options.getInteger("amount");
 
@@ -32,7 +32,7 @@ module.exports = {
     });
 
     await interaction.reply(
-      `\`${purgemsgs.size}/${amount}\` have been purged.`
+      `\`${purgemsgs.size}/${amount}\` have been purged.`,
     );
   },
 };
