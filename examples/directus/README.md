@@ -5,7 +5,7 @@ tags:
   - javascript
   - directus
   - cms
-  - postgreSQL
+  - postgresql
 ---
 
 # Directus railway template
