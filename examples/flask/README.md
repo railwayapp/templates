@@ -22,8 +22,9 @@ This is a [Flask](https://flask.palletsprojects.com/) app that serves a simple J
 - Deploy using the button 👆
 - Clone locally and install packages with Pip using `pip install -r requirements.txt` or Poetry using `poetry install`
 - Connect to your project using `railway link`
-- Run locally using `flask --app main run`
+- Run locally using `flask --app main --debug run` or `python main.py`
 
 ## 📝 Notes
 
 - To learn about how to use Flask with most of its features, you can visit the [Flask Documentation](https://flask.palletsprojects.com/en/2.2.x/quickstart/).
+- Gunicorn is used as the WSGI server for this project. You can learn more about it [here](https://flask.palletsprojects.com/en/2.2.x/deploying/gunicorn/).
