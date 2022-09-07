@@ -1,0 +1,28 @@
+name: Submit Template
+description: Submit a template to the Railway templates page
+title: Railway Template Submission
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Template URL
+      description: A link to the template on Railway.
+      placeholder: https://railway.app/new/template/ghost
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What does this template deploy?
+      description: |
+        Tell us more about why you created this template and the services it deploys.
+        Please also add the links to the services that the template deploys.
+        If an existing template deploys the same services, please elaborate on why you are creating a separate template.
+    validations:
+      required: true
+  - type: input
+    id: demo-project
+    attributes:
+      label: Demo project
+      description: A link to the demo project for this template.
+      placeholder: https://railway.app/project/fd92dedc-8a09-42b1-9388-8c7142057a53

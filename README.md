@@ -1,15 +1,15 @@
-# 🚂 Railway Starters
+# Railway Templates
 
-Here be dragons.
+This repository has been created to allow users to submit their templates to the list of templates displayed on our [templates page](https://railway.app/templates).
 
-Create a new Railway project 👉 [dev.new](https://dev.new)
+## Creating a template
 
-# Using the starters
+You can create a template by visiting our [button page](https://railway.app/button) or by converting an existing project into a template via the project settings page. Please note that templates can only be created if the services are linked to a public repository. If you link to a private repository, the template will not work.
 
-Each starter can be deployed to Railway with the "Deploy on Railway" button.
+Using the button, you can create a template that can deploy multiple services and databases. You can configure the environment variables, start command, healtcheck path and root directory for each service while also specifying whether or not we should attach a domain to the service.
 
-Each starter has it's own README explaining how to run it.
+## Submitting a template
 
-# Questions and Support
+To submit a template for approval, create a new issue following the issue template and entering the details about your template. A member of the team will try to get to it as soon as possible.
 
-If you have any questions or problems running the examples, please don't hesitate to reach out on our [Discord server](https://discord.gg/xAm2w6g).
+Once approved, your template will show up on our [templates page](<(https://railway.app/templates)>) with the `Community` tag.
