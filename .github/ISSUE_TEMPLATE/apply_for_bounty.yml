@@ -1,7 +1,20 @@
-name: Submit Template
-description: Submit a template to the Railway templates page
-title: Railway Template Submission
+name: Apply for Template Bounty
+description: Submit a template for consideration
+title: "[Bug]: "
+labels: ["bounty"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to make a template!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
   - type: input
     id: url
     attributes:
