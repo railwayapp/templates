@@ -1,0 +1,23 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "Railway Templates are an easy way to deploy your favorite apps to Railway. You can deploy templates from our [templates page](https://railway.app/templates).",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivam-Batham/templates.git"
+  },
+  "author": "shivam-batham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivam-Batham/templates/issues"
+  },
+  "homepage": "https://github.com/Shivam-Batham/templates#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
